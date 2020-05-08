@@ -1,9 +1,8 @@
 # default configuration
 baseURL = "http://examplesite.com"
-languageCode = "en-us"
+languageCode = "de-DE"
 summaryLength = "10"
-theme = "kross-hugo"
-title = "Kross | Hugo Portfolio Template"
+title = "K & R Design und Wohnen"
 
 # css plugins
 [[params.plugins.css]]
@@ -28,22 +27,22 @@ URL = "plugins/shuffle/shuffle.min.js"
 # menu
 [[menu.main]]
 URL = "about"
-name = "About"
+name = "Über Uns"
 weight = 2
 
 [[menu.main]]
 URL = "blog"
-name = "Blog"
+name = "Projekte"
 weight = 3
 
 [[menu.main]]
 URL = "portfolio"
-name = "Portfolio"
+name = "Referenzen"
 weight = 4
 
 [[menu.main]]
 URL = "contact"
-name = "Contact"
+name = "Kontakt"
 weight = 5
 
 
@@ -54,16 +53,16 @@ logo = "images/logo.png"
 # theme color
 theme_color = "#41228e"
 # contact info
-phone = "+880 2544 658 256"
-email = "steve.fruits@email.com"
-address = "125/A, CA Commercial Area, California, USA"
+phone = "0172 351 6360"
+email = "riedel.dd@web.de"
+address = "Strasse des Friedens 29, Dresden"
 # meta description
-author = "Johnathan Smith"
+author = "Uwe Riedel"
 description = "This is meta description"
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
-copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2020"
 
 
 # contact
@@ -73,7 +72,7 @@ form_action = "#" # contact form works with : https://formspree.io
 
 # preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "" # use png, jpg, svg or gif format
 
 # social site

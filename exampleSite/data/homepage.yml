@@ -1,6 +1,6 @@
 # banner
 banner:
-  title : "Hi! I’m <br> Christoher <br> UX designer"
+  title : "K & R <br> Design <br> Wohnen"
 
 # about
 about:
@@ -8,12 +8,12 @@ about:
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
   button:
     enable : true
-    label : "know more"
+    label : "Über Uns"
     URL : "about"
 
 # skill
 skill:
-  enable : true
+  enable : false
   title : "Skills"
   item:
     - title : "Web Design"
@@ -34,7 +34,7 @@ skill:
 
 # experience
 experience:
-  enable : true
+  enable : false
   title : "Experience"
   item: 
     - logo : "images/experience/icon-1.png"
@@ -55,40 +55,40 @@ experience:
 # education
 education:
   enable : true
-  title : "Education"
+  title : "Referenzen"
   item:
-    - title : "Marters in UX Design"
-      year : "2006"
-      academy : "Masassusets Institute of Technology"
+    - title : "Neubau Einfamilien-Wohnhaus"
+      year : "2020"
+      academy : "Dresden, Neustadt"
       
-    - title : "Honours in Fine Arts"
-      year : "2004"
-      academy : "Harvard University"
+    - title : "Innenarchitektur für Mehrgenerationenhaus"
+      year : "2018"
+      academy : "Pirna, Altstadt"
       
-    - title : "Higher Secondary Certificat"
-      year : "2000"
-      academy : "Cardiff School"
+    - title : "Fassadenrenovierung Altbau"
+      year : "2016"
+      academy : "Graupa, Ringstraße"
       
-    - title : "Secondary School Certificate"
-      year : "1998"
-      academy : "Cardiff School"
+    - title : "Wintergartenanbau"
+      year : "2014"
+      academy : "Dresden, Zschachwitz"
 
 # service
 service:
   enable : true
-  title : "Services"
+  title : "Aktuelle Projekte"
   item:
-    - title : "UI Design"
+    - title : "Bauvorhaben Wilschdorf"
       icon : "ti-palette"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : false
 
-    - title : "UX Design"
+    - title : "Bauvorhaben Freital"
       icon : "ti-vector"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : true
 
-    - title : "Interaction Design"
+    - title : "Bauvorhaben Dresden"
       icon : "ti-panel"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : false
@@ -96,14 +96,14 @@ service:
 # portfolio
 portfolio:
   enable : true
-  title : "Portfolio"
+  title : "Referenzen"
   item_show : 5
   # portfolio item comes from 'data/portfolio.yml' item.
 
 # testimonial
 testimonial:
   enable : true
-  title : "Testimonials"
+  title : "Kundenstimmen"
   item:
     - name : "Jesica Gomez"
       image : "images/testimonial/client-1.png"
@@ -122,7 +122,7 @@ testimonial:
 
 # client logo slider
 clients_logo_slider:
-  enable : true
+  enable : false
   item:
     - logo : "images/clients-logo/client-logo-1.png"
       URL : "http://examplesite.com"
@@ -157,5 +157,5 @@ clients_logo_slider:
 # blog
 blog:
   enable : true
-  title : "Blogs"
+  title : "Aktuelle Projekte"
   # blog post comes from "content/blog" folder

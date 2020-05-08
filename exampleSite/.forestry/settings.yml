@@ -6,48 +6,48 @@ webhook_url:
 sections:
 - type: document
   path: exampleSite/data/homepage.yml
-  label: Homepage
+  label: Startseite
 - type: heading
-  label: Blog Post
+  label: Projekte
 - type: document
   path: exampleSite/content/blog/_index.md
-  label: Blog Page
+  label: Projektseite
 - type: directory
   path: exampleSite/content/blog
-  label: Blog Post
+  label: Projekt
   create: documents
   match: "*"
   exclude: _index.md
   templates:
   - post
 - type: heading
-  label: Portfolio
+  label: Referenzen
 - type: document
   path: exampleSite/content/portfolio/_index.md
-  label: Portfolio Page
+  label: Referenzseite
 - type: document
   path: exampleSite/data/portfolio.yml
-  label: Portfolio Items
+  label: Referenz Daten
 - type: heading
   label: About
 - type: document
   path: exampleSite/content/about/_index.md
-  label: About Page
+  label: Über Uns Seite
 - type: document
   path: exampleSite/data/about.yml
-  label: About Data
+  label: Über Uns Daten
 - type: heading
-  label: Others Page
+  label: Weitere Seiten
 - type: directory
   path: exampleSite/content/contact
-  label: Contact
+  label: Kontakt
   create: none
   match: "*"
 - type: heading
-  label: Configuration
+  label: Konfiguration
 - type: directory
   path: exampleSite
-  label: Configuration
+  label: Konfiguration
   create: all
   match: "*.toml"
   new_doc_ext: toml
@@ -59,7 +59,7 @@ file_template: ":filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.58.2
+  - HUGO_VERSION=0.60.1
   preview_output_directory: public
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"

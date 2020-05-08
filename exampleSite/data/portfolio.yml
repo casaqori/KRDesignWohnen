@@ -1,46 +1,46 @@
 # portfolio item
 item:
-  - title : "Portfolio Item"
+  - title : "Neubau Einfamilien-Wohnhaus"
     image : "images/portfolio/item-1.png"
     project_url : "http://examplesite.com"
     categories: ["design","development"]
       
-  - title : "Portfolio Item"
+  - title : "Innenarchitektur für Mehrgenerationenhaus"
     image : "images/portfolio/item-2.png"
     project_url : "#"
     categories: ["branding"]
       
-  - title : "Portfolio Item"
+  - title : "Wintergartenanbau"
     image : "images/portfolio/item-3.png"
     project_url : "http://examplesite.com"
     categories: ["illustration"]
       
-  - title : "Portfolio Item"
+  - title : "Neubau Einfamilien-Wohnhaus"
     image : "images/portfolio/item-5.png"
     project_url : "#"
     categories: ["design"]
       
-  - title : "Portfolio Item"
+  - title : "Innenarchitektur für Mehrgenerationenhaus"
     image : "images/portfolio/item-8.png"
     project_url : "http://examplesite.com"
     categories: ["illustration","development"]
       
-  - title : "Portfolio Item"
+  - title : "Neubau Einfamilien-Wohnhaus"
     image : "images/portfolio/item-6.png"
     project_url : "#"
     categories: ["design"]
       
-  - title : "Portfolio Item"
+  - title : "Fassadenrenovierung Altbau"
     image : "images/portfolio/item-1.png"
     project_url : "http://examplesite.com"
     categories: ["branding"]
       
-  - title : "Portfolio Item"
+  - title : "Innenarchitektur für Mehrgenerationenhaus"
     image : "images/portfolio/item-3.png"
     project_url : "#"
     categories: ["illustration","development"]
       
-  - title : "Portfolio Item"
+  - title : "Fassadenrenovierung Altbau"
     image : "images/portfolio/item-7.png"
     project_url : "http://examplesite.com"
     categories: ["branding"]
@@ -49,5 +49,5 @@ item:
 # client logo slider
 clients_logo_slider:
   enable : true
-  title : "My Clients"
+  title : "Unsere Kunden"
   # clients logo comes from 'data/homepage.yml' file

@@ -1,17 +1,17 @@
 # work process
 work_process:
   enable : true
-  title : "Work Process"
+  title : "Dienstleistungen"
   item:
-  - title : "Research and Plan"
+  - title : "Planung"
     icon : "images/icons/plan.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     
-  - title : "Design and Develop"
+  - title : "Außen- und Innenarchitektur"
     icon : "images/icons/design.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     
-  - title : "Deliver"
+  - title : "Bauausführung"
     icon : "images/icons/print.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
@@ -19,17 +19,17 @@ work_process:
 # team
 team:
   enable: true
-  title : "My Team"
+  title : "Das sind Wir"
   team_member:
-    - title : "Jack Schenziwe"
+    - title : "Uwe Riedel"
       image : "images/team/member-1.png"
       designation : "Project Manager"
       
-    - title : "Julias Carlie"
+    - title : "Maik Riedel"
       image : "images/team/member-2.png"
       designation : "Web Developer"
       
-    - title : "John Doe"
+    - title : "K Riedel"
       image : "images/team/member-3.png"
       designation : "Designer"
 
@@ -37,5 +37,5 @@ team:
 # client logo slider
 clients_logo_slider:
   enable : true
-  title : "My Clients"
+  title : "Unsere Kunden"
   # clients logo comes from 'data/homepage.yml' file
