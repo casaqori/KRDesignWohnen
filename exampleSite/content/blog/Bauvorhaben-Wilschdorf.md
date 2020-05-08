@@ -1,7 +1,7 @@
 ---
 title: "Bauvorhaben Wilschdorf"
-date: 2019-05-11T11:14:34+06:00
-image: "images/blog/post-1.jpg"
+date: 2019-05-14T11:14:34+06:00
+image: "images/blog/post-4.jpg"
 description: "This is meta description."
 draft: false
 ---

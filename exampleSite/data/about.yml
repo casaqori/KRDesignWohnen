@@ -23,15 +23,15 @@ team:
   team_member:
     - title : "Uwe Riedel"
       image : "images/team/member-1.png"
-      designation : "Project Manager"
+      designation : "Baukoordinierung"
       
     - title : "Maik Riedel"
-      image : "images/team/member-2.png"
-      designation : "Web Developer"
+      image : "images/team/member-3.png"
+      designation : "Projektentwicklung"
       
     - title : "K Riedel"
-      image : "images/team/member-3.png"
-      designation : "Designer"
+      image : "images/team/member-2.png"
+      designation : "Architektin"
 
 
 # client logo slider

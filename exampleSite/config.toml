@@ -2,6 +2,7 @@
 baseURL = "http://examplesite.com"
 languageCode = "de-DE"
 summaryLength = "10"
+theme = "KRDesignWohnen"
 title = "K & R Design und Wohnen"
 
 # css plugins
@@ -40,18 +41,19 @@ URL = "portfolio"
 name = "Referenzen"
 weight = 4
 
-[[menu.main]]
-URL = "contact"
-name = "Kontakt"
-weight = 5
+#[[menu.main]]
+#URL = "contact"
+#name = "Kontakt"
+#weight = 5
 
 
 # default parameters
 [params]
-home = "Home"
+home = "Start"
 logo = "images/logo.png"
 # theme color
-theme_color = "#41228e"
+#theme_color = "#41228e"
+theme_color = "#212529"
 # contact info
 phone = "0172 351 6360"
 email = "riedel.dd@web.de"
@@ -67,7 +69,8 @@ copyright = "Copyright &copy; 2020"
 
 # contact
 [params.contact]
-enable = true
+enable = false
+title = "Kontaktformular"
 form_action = "#" # contact form works with : https://formspree.io
 
 # preloader

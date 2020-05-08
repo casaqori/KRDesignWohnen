@@ -3,47 +3,47 @@ item:
   - title : "Neubau Einfamilien-Wohnhaus"
     image : "images/portfolio/item-1.png"
     project_url : "http://examplesite.com"
-    categories: ["design","development"]
+    categories: ["Ausbau","Architektur"]
       
   - title : "Innenarchitektur für Mehrgenerationenhaus"
     image : "images/portfolio/item-2.png"
     project_url : "#"
-    categories: ["branding"]
+    categories: ["Neubau"]
       
   - title : "Wintergartenanbau"
     image : "images/portfolio/item-3.png"
     project_url : "http://examplesite.com"
-    categories: ["illustration"]
+    categories: ["Renovierung"]
       
   - title : "Neubau Einfamilien-Wohnhaus"
     image : "images/portfolio/item-5.png"
     project_url : "#"
-    categories: ["design"]
+    categories: ["Ausbau"]
       
   - title : "Innenarchitektur für Mehrgenerationenhaus"
     image : "images/portfolio/item-8.png"
     project_url : "http://examplesite.com"
-    categories: ["illustration","development"]
+    categories: ["Renovierung","Architektur"]
       
   - title : "Neubau Einfamilien-Wohnhaus"
     image : "images/portfolio/item-6.png"
     project_url : "#"
-    categories: ["design"]
+    categories: ["Ausbau"]
       
   - title : "Fassadenrenovierung Altbau"
     image : "images/portfolio/item-1.png"
     project_url : "http://examplesite.com"
-    categories: ["branding"]
+    categories: ["Neubau"]
       
   - title : "Innenarchitektur für Mehrgenerationenhaus"
     image : "images/portfolio/item-3.png"
     project_url : "#"
-    categories: ["illustration","development"]
+    categories: ["Renovierung","Architektur"]
       
   - title : "Fassadenrenovierung Altbau"
     image : "images/portfolio/item-7.png"
     project_url : "http://examplesite.com"
-    categories: ["branding"]
+    categories: ["Neubau"]
 
 
 # client logo slider
