@@ -1,7 +1,7 @@
 ---
 title: "Bauvorhaben Dresden"
 date: 2019-05-12T12:14:34+06:00
-image: "images/blog/post-2.jpg"
+image: "images/blog/pic01.jpg"
 description: "This is meta description."
 draft: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Bauvorhaben Freital"
 date: 2019-05-13T12:14:34+06:00
-image: "images/blog/post-3.jpg"
+image: "images/blog/pic02.jpg"
 description: "This is meta description."
 draft: false
 ---

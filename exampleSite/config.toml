@@ -53,7 +53,11 @@ home = "Start"
 logo = "images/logo.png"
 # theme color
 #theme_color = "#41228e"
-theme_color = "#212529"
+theme_color = "#282d32"
+theme_contrastcolor = "#c6a47e"
+theme_textcolor = "#ffffff"
+theme_lightcolor = "#cdcdcd"
+theme_darkcolor = "#212529"
 # contact info
 phone = "0172 351 6360"
 email = "riedel.dd@web.de"

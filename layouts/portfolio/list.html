@@ -8,7 +8,7 @@
     <div class="row mb-5">
       <div class="col-12">
         <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap" data-toggle="buttons">
-          <label class="btn btn-sm btn-primary active">
+          <label class="btn btn-sm btn-secondary active  bg-secondary">
             <input type="radio" name="shuffle-filter" value="all" checked="checked" />Alle
           </label>
 					{{ $categories := slice }}
@@ -18,7 +18,7 @@
 					{{ end }}
 					{{ end }}
 					{{ range ( $categories | uniq ) }}
-          <label class="btn btn-sm btn-primary">
+          <label class="btn btn-sm btn-secondary">
             <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
           </label>
           {{ end }}
@@ -46,7 +46,7 @@
 <!-- /portfolio -->
 
 {{ if .Site.Data.portfolio.clients_logo_slider.enable }}
-<section class="section bg-light">
+<section class="section bg-light" data-background="{{`images/backgrounds/education-bg.png`|relURL}}">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">

@@ -5,14 +5,17 @@ work_process:
   item:
   - title : "Planung"
     icon : "images/icons/plan.png"
+    icon : "ti-palette"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     
   - title : "Außen- und Innenarchitektur"
     icon : "images/icons/design.png"
+    icon : "ti-vector"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     
   - title : "Bauausführung"
     icon : "images/icons/print.png"
+    icon : "ti-panel"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 

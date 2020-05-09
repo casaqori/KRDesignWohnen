@@ -55,49 +55,49 @@ experience:
 # education
 education:
   enable : true
-  title : "Referenzen"
+  title : "Dienstleistungen"
   item:
-    - title : "Neubau Einfamilien-Wohnhaus"
-      year : "2020"
-      academy : "Dresden, Neustadt"
+    - title : "Planung"
+      year : ""
+      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       
-    - title : "Innenarchitektur für Mehrgenerationenhaus"
-      year : "2018"
-      academy : "Pirna, Altstadt"
+    - title : "Außen- und Innenarchitektur"
+      year : ""
+      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       
-    - title : "Fassadenrenovierung Altbau"
-      year : "2016"
-      academy : "Graupa, Ringstraße"
+    - title : "Bauausführung"
+      year : ""
+      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       
-    - title : "Wintergartenanbau"
-      year : "2014"
-      academy : "Dresden, Zschachwitz"
+    - title : "Gartenbau"
+      year : ""
+      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 
 # service
 service:
   enable : true
-  title : "Aktuelle Projekte"
+  title : "Referenzen"
   item:
-    - title : "Bauvorhaben Wilschdorf"
+    - title : "Neubau Einfamilien-Wohnhaus"
       icon : "ti-palette"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      content : "2020 - Dresden, Neustadt</br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : false
 
-    - title : "Bauvorhaben Freital"
+    - title : "Innenarchitektur für Mehrgenerationenhaus"
       icon : "ti-vector"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      content : "2018 - Pirna, Altstadt</br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : true
 
-    - title : "Bauvorhaben Dresden"
+    - title : "Fassadenrenovierung Altbau"
       icon : "ti-panel"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      content : "2016 - Graupa, Ringstraße</br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet."
       highlighted : false
 
 # portfolio
 portfolio:
   enable : true
   title : "Referenzen"
-  item_show : 5
+  item_show : 3
   # portfolio item comes from 'data/portfolio.yml' item.
 
 # testimonial

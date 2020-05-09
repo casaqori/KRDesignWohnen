@@ -1,17 +1,17 @@
 # portfolio item
 item:
   - title : "Neubau Einfamilien-Wohnhaus"
-    image : "images/portfolio/item-1.png"
+    image : "images/blog/pic06.jpg"
     project_url : "http://examplesite.com"
     categories: ["Ausbau","Architektur"]
       
   - title : "Innenarchitektur für Mehrgenerationenhaus"
-    image : "images/portfolio/item-2.png"
+    image : "images/blog/pic04.jpg"
     project_url : "#"
     categories: ["Neubau"]
       
   - title : "Wintergartenanbau"
-    image : "images/portfolio/item-3.png"
+    image : "images/blog/pic03.jpg"
     project_url : "http://examplesite.com"
     categories: ["Renovierung"]
       
@@ -37,6 +37,11 @@ item:
       
   - title : "Innenarchitektur für Mehrgenerationenhaus"
     image : "images/portfolio/item-3.png"
+    project_url : "#"
+    categories: ["Renovierung","Architektur"]
+
+  - title : "Innenarchitektur für Mehrgenerationenhaus"
+    image : "images/portfolio/item-2.png"
     project_url : "#"
     categories: ["Renovierung","Architektur"]
       

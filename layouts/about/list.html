@@ -11,11 +11,13 @@
   </div>
   <!-- background shapes -->
   <img src="{{`images/illustrations/page-title.png`| relURL}}" alt="illustrations" class="bg-shape-1 w-100">
+  <!--
   <img src="{{`images/illustrations/dots-group-sm.svg`| relURL}}" alt="illustrations" class="bg-shape-2">
   <img src="{{`images/illustrations/leaf-yellow.svg`| relURL}}" alt="illustrations" class="bg-shape-3">
   <img src="{{`images/illustrations/leaf-orange.svg`| relURL}}" alt="illustrations" class="bg-shape-4">
   <img src="{{`images/illustrations/dots-group-cyan.svg`| relURL}}" alt="illustrations" class="bg-shape-5">
   <img src="{{`images/illustrations/leaf-cyan-lg.svg`| relURL}}" alt="illustrations" class="bg-shape-6">
+  -->
 </section>
 <!-- /page title -->
 
@@ -29,7 +31,7 @@
       <div class="col-md-4 text-center drag-lg-top">
         <div class="shadow-down mb-4">
           <img src="{{.Params.author_image | absURL }}" alt="author"
-            class="img-fluid w-100 rounded-lg border-thick border-white">
+            class="img-fluid w-100 rounded-lg border-thick border-light">
         </div>
         <img src="{{.Params.author_signature | absURL }}" alt="signature" class="img-fluid">
         <h4>{{ .Site.Params.Author }}</h4>
@@ -49,8 +51,9 @@
         <h2 class="section-title">{{ .title | markdownify }}</h2>
       </div>
       {{ range .item }}
-      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
-        <img src="{{ .icon | absURL }}" class="mb-4" alt="icon">
+      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3 bg-dark">
+        <!--<img src="{{ .icon | absURL }}" class="mb-4" alt="icon">-->
+        <i class="{{.icon }} icon mb-5 d-inline-block text-secondary"></i>
         <h4 class="mb-4">{{ .title }}</h4>
         <p>{{ .content | markdownify }}</p>
       </div>
@@ -65,7 +68,7 @@
 <!-- team -->
 {{ if .Site.Data.about.team.enable }}
 {{ with .Site.Data.about.team }}
-<section class="section bg-cover" data-background="{{`images/backgrounds/team-bg.png`|relURL}}">
+<section class="section bg-cover" data-background="{{`images/backgrounds/bg-dots.png`|relURL}}">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -90,7 +93,7 @@
 <!-- /team -->
 
 {{ if .Site.Data.about.clients_logo_slider.enable }}
-<section class="section">
+<section class="section bg-light" data-background="{{`images/backgrounds/education-bg.png`|relURL}}">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
