@@ -46,6 +46,11 @@ weight = 4
 #name = "Kontakt"
 #weight = 5
 
+[[menu.main]]
+URL = "legal"
+name = "Impressum"
+weight = 5
+
 
 # default parameters
 [params]

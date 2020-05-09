@@ -43,6 +43,11 @@ sections:
   label: Kontakt
   create: none
   match: "*"
+- type: directory
+  path: exampleSite/content/legal
+  label: Impressum
+  create: none
+  match: "*"
 - type: heading
   label: Konfiguration
 - type: directory

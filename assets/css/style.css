@@ -512,7 +512,7 @@ textarea.form-control {
 
 .hero-area.banner {
   background-image: url("../images/illustrations/overlay.png"), linear-gradient(45deg, #0d0e0fa6, rgba(82, 62, 40, 0.65)), url("../images/illustrations/banner.jpg");
-  background-position: center center;
+  background-position: center -140px;
   background-size: auto, cover, cover;
   background-attachment: fixed, fixed, fixed;
   background-repeat: repeat, no-repeat, no-repeat;
@@ -813,10 +813,6 @@ blockquote {
   line-height: 1.5
 }
 
-.page-title-alt {
-  padding: 350px 0 70px
-}
-
 .border-thick {
   border: 10px solid
 }
@@ -829,6 +825,10 @@ blockquote {
   .drag-lg-top {
     margin-top: 0
   }
+}
+
+.page-title-alt {
+  padding: 350px 0 70px
 }
 
 .page-title-alt .container {
@@ -872,6 +872,10 @@ blockquote {
   position: absolute;
   bottom: 100px;
   right: -100px
+}
+
+.page-title-min {
+  padding: 140px 0 80px
 }
 
 .page-title {
