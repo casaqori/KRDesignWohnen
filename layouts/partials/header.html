@@ -13,8 +13,8 @@
         </li>
         {{ $current := . }}
         {{ range .Site.Menus.main }}
-        {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
-        {{ $active = or $active (eq .Name $current.Title) }}
+        {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+        {{ $active = or $active (eq .Name $current.Title) }} <!-- TODO: nicht am Title festmachen -->
         {{ if .HasChildren }}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

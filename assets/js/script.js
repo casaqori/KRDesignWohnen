@@ -148,6 +148,20 @@ $(window).on('load', function () {
 		]
 	});
 
+	$('.portfolio-slider').slick({
+		dots: false,
+		infinite: true,
+		speed: 1000,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 6000,
+		arrows: false,
+		adaptiveHeight: true
+	});
+
+	$('.slick-slider').removeClass('inline');
+
 	// Shuffle js filter and masonry
 	var containerEl = document.querySelector('.shuffle-wrapper');
 	if (containerEl) {

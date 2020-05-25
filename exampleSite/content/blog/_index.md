@@ -1,5 +1,5 @@
 ---
-title: "Aktuelle Projekte"
+title: "Projekte"
 description: "This is meta description."
 draft: false
 ---

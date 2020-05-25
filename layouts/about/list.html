@@ -31,7 +31,7 @@
       <div class="col-md-4 text-center drag-lg-top">
         <div class="shadow-down mb-4">
           <img src="{{.Params.author_image | absURL }}" alt="author"
-            class="img-fluid w-100 rounded-lg border-thick border-light">
+            class="img-fluid w-100 rounded-lg border-thick border-background">
         </div>
         <img src="{{.Params.author_signature | absURL }}" alt="signature" class="img-fluid">
         <h4>{{ .Site.Params.Author }}</h4>
@@ -51,7 +51,7 @@
         <h2 class="section-title">{{ .title | markdownify }}</h2>
       </div>
       {{ range .item }}
-      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3 bg-dark">
+      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
         <!--<img src="{{ .icon | absURL }}" class="mb-4" alt="icon">-->
         <i class="{{.icon }} icon mb-5 d-inline-block text-secondary"></i>
         <h4 class="mb-4">{{ .title }}</h4>

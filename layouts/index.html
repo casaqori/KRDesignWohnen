@@ -5,13 +5,17 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-11 mx-auto">
-          <h1 class="text-white font-tertiary">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>
+          <!--<h1 class="text-secondary font-tertiary">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>-->
         </div>
       </div>
+    </div>
+    <div class="layer-bg w-100 text-center">
+      <img src="{{ .Site.Params.logo | absURL }}" alt="{{.Site.Title}}">
     </div>
     <!--
     <div class="layer-bg w-100">
       <img class="img-fluid w-100" src="{{`images/illustrations/leaf-bg.png` | relURL}}" alt="bg-shape">
+      <img src="{{ .Site.Params.logo | absURL }}" alt="{{.Site.Title}}">
     </div>
     <div class="layer" id="l2">
       <img src="{{`images/illustrations/dots-cyan.svg` | relURL}}" alt="bg-shape">
@@ -52,7 +56,7 @@
 
   {{ if .Site.Data.homepage.about.enable }}
   <!-- about -->
-  <section class="section bg-dark">
+  <section class="section">
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto text-center">
@@ -87,7 +91,7 @@
             <div class="position-relative rounded-top progress-wrapper" data-color="{{.color}}">
               <div class="wave" data-progress="{{.progress}}"></div>
             </div>
-            <div class="card-footer bg-white">
+            <div class="card-footer">
               <h4 class="card-title text-dark">{{.title }} ({{.progress}})</h4>
             </div>
           </div>
@@ -137,7 +141,7 @@
         <div class="col-lg-6 col-md-6 mb-80">
           <div class="d-flex">
             <div class="mr-lg-5 mr-3">
-              <i class="ti-pencil icon icon-bg bg-dark text-secondary shadow rounded-circle d-block"></i>
+              <i class="ti-pencil icon icon-bg bg-light text-secondary shadow rounded-circle d-block"></i>
             </div>
             <div>
               <p class="text-light mb-1">{{.year}}</p>
@@ -187,13 +191,15 @@
 
   {{ if .Site.Data.homepage.portfolio.enable }}
   <!-- portfolio -->
-  <section class="section">
+  <section class="section bg-light" data-background="{{`images/backgrounds/education-bg.png`|relURL}}">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
           <h2 class="section-title">{{ .Site.Data.homepage.portfolio.title | markdownify }}</h2>
         </div>
       </div>
+      {{ partial "portfolio-slider.html" . }}
+      <!--
       <div class="row shuffle-wrapper">
         {{ $item:= .Site.Data.homepage.portfolio.item_show }}
         {{ range first $item .Site.Data.portfolio.item }}
@@ -203,7 +209,7 @@
             {{ if and ( ne .project_url "" ) ( ne .project_url "#" ) }}
             <div class="hover-overlay">
               <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="{{ .project_url | safeURL }}">view project</a>
+                <a class="btn btn-light btn-sm" href="{{ .project_url | safeURL }}">Ansehen</a>
               </div>
             </div>
             {{ end }}
@@ -211,6 +217,7 @@
         </div>
         {{ end }}
       </div>
+      -->
     </div>
   </section>
   <!-- /portfolio -->
@@ -281,6 +288,33 @@
   </section>
   <!-- /blog -->
   {{ end }}
+
+  <!-- team -->
+  {{ if .Site.Data.about.team.enable }}
+  {{ with .Site.Data.about.team }}
+  <section class="section bg-cover" data-background="{{`images/backgrounds/bg-dots.png`|relURL}}">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">{{ .title | markdownify }}</h2>
+        </div>
+        {{ range .team_member }}
+        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+          <div class="card text-center">
+            <img src="{{ .image | absURL }}" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">{{.title }}</h4>
+              <p class="text-light font-secondary">{{.designation }}</p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
+  <!-- /team -->
 
 
 {{ end }}

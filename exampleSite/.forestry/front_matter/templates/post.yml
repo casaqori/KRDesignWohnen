@@ -1,16 +1,25 @@
 ---
-label: Post
+label: Projekt
 hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Titel
+  config:
+    required: true
 - type: datetime
   name: date
-  label: date
+  label: Begin-Datum
 - type: file
   name: image
-  label: image
+  label: Bild
+- type: boolean
+  name: imageStretch
+  label: Vollbild?
 - type: text
   name: description
-  label: description
+  label: Kurzinhalt
+  config:
+    required: false
+    min: 0
+    max: 180

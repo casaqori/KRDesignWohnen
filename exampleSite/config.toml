@@ -26,25 +26,26 @@ URL = "plugins/shuffle/shuffle.min.js"
 
 
 # menu
-[[menu.main]]
-URL = "about"
-name = "Über Uns"
-weight = 2
+[menu]
+#[[menu.main]]
+#URL = "about"
+#name = "Über Uns"
+#weight = 1
 
 [[menu.main]]
 URL = "blog"
 name = "Projekte"
-weight = 3
+weight = 2
 
 [[menu.main]]
 URL = "portfolio"
 name = "Referenzen"
-weight = 4
+weight = 3
 
 #[[menu.main]]
 #URL = "contact"
 #name = "Kontakt"
-#weight = 5
+#weight = 4
 
 [[menu.main]]
 URL = "legal"
@@ -55,14 +56,28 @@ weight = 5
 # default parameters
 [params]
 home = "Start"
-logo = "images/logo.png"
+logo = "images/illustrations/logokr2.png"
+
 # theme color
-#theme_color = "#41228e"
-theme_color = "#282d32"
-theme_contrastcolor = "#c6a47e"
-theme_textcolor = "#ffffff"
-theme_lightcolor = "#cdcdcd"
-theme_darkcolor = "#212529"
+#ligt theme
+theme_backgroundcolor = "#fff"
+theme_backgroundcontrastcolor = "#eaeaea"
+#theme_color = "#c6a47e"
+theme_color = "#E6D9C8"
+#theme_contrastcolor = "#4974a5"
+theme_contrastcolor ="#908071"
+theme_textcolor = "#4c4c4c"
+theme_lightcolor = "#999"
+theme_darkcolor = "#222"
+#dark theme
+#theme_backgroundcolor = "#282d32"
+#theme_backgroundcontrastcolor="#cdcdcd"
+#theme_color = "#282d32"
+#theme_contrastcolor = "#c6a47e"
+#theme_textcolor = "#ffffff"
+#theme_lightcolor = "#cdcdcd"
+#theme_darkcolor = "#212529"
+
 # contact info
 phone = "0172 351 6360"
 email = "riedel.dd@web.de"

@@ -1,58 +1,68 @@
 # portfolio item
 item:
   - title : "Neubau Einfamilien-Wohnhaus"
-    image : "images/blog/pic06.jpg"
-    project_url : "http://examplesite.com"
+    image : "images/portfolio/Bad.jpg"
+    project_url : "/images/portfolio/Bad_voll.jpg"
     categories: ["Ausbau","Architektur"]
       
   - title : "Innenarchitektur für Mehrgenerationenhaus"
-    image : "images/blog/pic04.jpg"
-    project_url : "#"
+    image : "images/portfolio/Badewanne.jpg"
+    project_url : "/images/portfolio/Badewanne_voll.jpg"
     categories: ["Neubau"]
       
   - title : "Wintergartenanbau"
-    image : "images/blog/pic03.jpg"
-    project_url : "http://examplesite.com"
+    image : "images/portfolio/referenz_dresden.jpg"
+    project_url : "/images/portfolio/referenz_dresden.jpg"
     categories: ["Renovierung"]
       
   - title : "Neubau Einfamilien-Wohnhaus"
-    image : "images/portfolio/item-5.png"
-    project_url : "#"
+    image : "images/portfolio/Eschdorf.jpg"
+    project_url : "/images/portfolio/Eschdorf.jpg"
     categories: ["Ausbau"]
       
   - title : "Innenarchitektur für Mehrgenerationenhaus"
-    image : "images/portfolio/item-8.png"
-    project_url : "http://examplesite.com"
+    image : "images/portfolio/Eschdorf1.jpg"
+    project_url : "/images/portfolio/Eschdorf1.jpg"
     categories: ["Renovierung","Architektur"]
       
   - title : "Neubau Einfamilien-Wohnhaus"
-    image : "images/portfolio/item-6.png"
-    project_url : "#"
+    image : "images/portfolio/Eschdorf2.jpg"
+    project_url : "/images/portfolio/Eschdorf2.jpg"
     categories: ["Ausbau"]
       
   - title : "Fassadenrenovierung Altbau"
-    image : "images/portfolio/item-1.png"
-    project_url : "http://examplesite.com"
+    image : "images/portfolio/9268300003-1_Ansicht V.jpg"
+    project_url : "/images/portfolio/9268300003-1_Ansicht V.jpg"
     categories: ["Neubau"]
       
   - title : "Innenarchitektur für Mehrgenerationenhaus"
-    image : "images/portfolio/item-3.png"
-    project_url : "#"
+    image : "images/portfolio/9268300003-1_Ansicht02.jpg"
+    project_url : "/images/portfolio/9268300003-1_Ansicht02.jpg"
     categories: ["Renovierung","Architektur"]
 
   - title : "Innenarchitektur für Mehrgenerationenhaus"
-    image : "images/portfolio/item-2.png"
-    project_url : "#"
+    image : "images/portfolio/9268300003-1_Ansicht05.jpg"
+    project_url : "/images/portfolio/9268300003-1_Ansicht05.jpg"
     categories: ["Renovierung","Architektur"]
       
   - title : "Fassadenrenovierung Altbau"
-    image : "images/portfolio/item-7.png"
-    project_url : "http://examplesite.com"
+    image : "images/portfolio/9268300003-2_Ansicht V.jpg"
+    project_url : "/images/portfolio/9268300003-2_Ansicht V.jpg"
+    categories: ["Neubau"]
+
+  - title : "Fassadenrenovierung Altbau"
+    image : "images/portfolio/9268300003-2_Ansicht05.jpg"
+    project_url : "/images/portfolio/9268300003-2_Ansicht05.jpg"
+    categories: ["Neubau"]
+
+  - title : "Fassadenrenovierung Altbau"
+    image : "images/portfolio/9268300003-2_Ansicht06.jpg"
+    project_url : "/images/portfolio/9268300003-2_Ansicht06.jpg"
     categories: ["Neubau"]
 
 
 # client logo slider
 clients_logo_slider:
-  enable : true
+  enable : false
   title : "Unsere Kunden"
   # clients logo comes from 'data/homepage.yml' file

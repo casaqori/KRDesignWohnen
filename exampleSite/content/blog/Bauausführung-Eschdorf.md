@@ -1,7 +1,8 @@
 ---
-title: "Bauvorhaben Freital"
+title: "Bauausführung Eschdorf"
 date: 2019-05-13T12:14:34+06:00
-image: "images/blog/pic02.jpg"
+image: "images/blog/Eschdorf.jpg"
+imageStretch: true
 description: "This is meta description."
 draft: false
 ---
@@ -12,6 +13,8 @@ ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate vel
 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
 mollit anim id est laborum.
 
+{{< figure src="/images/blog/Eschdorf1.jpg" link="/images/blog/Eschdorf1.jpg" caption="Seitenansicht" class="text-center float-left mb-0 mr-5" width="300">}}
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
 ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -20,6 +23,9 @@ anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit volupta
 laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
 dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
 consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+
+<span class="clearfix"></span>
+{{< figure src="/images/blog/Eschdorf2.jpg" link="/images/blog/Eschdorf1.jpg" caption="Südfassade" class="text-center float-right mb-0 ml-5" width="300">}}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex

@@ -24,17 +24,17 @@ team:
   enable: true
   title : "Das sind Wir"
   team_member:
-    - title : "Uwe Riedel"
+    - title : "Maik Kotas"
       image : "images/team/member-1.png"
-      designation : "Baukoordinierung"
-      
-    - title : "Maik Riedel"
+      designation : "Immobilienmakler seit 1990...Ausbildung als Bankkaufmann, im Bauträgergeschäft sied 1975 unterwegs usw. usw."
+
+    - title : "Hubert Zahn"
       image : "images/team/member-3.png"
-      designation : "Projektentwicklung"
+      designation : "Architekt, studiert in Hamburg usw. usw."
       
-    - title : "K Riedel"
-      image : "images/team/member-2.png"
-      designation : "Architektin"
+    - title : "Uwe Riedel"
+      image : "images/about/author.jpg"
+      designation : "seit 1995 tätig in der Projektentwicklung, Bauausführung und Bauträgertätigkeit"
 
 
 # client logo slider

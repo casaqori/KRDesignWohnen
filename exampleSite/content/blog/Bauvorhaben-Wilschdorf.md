@@ -1,7 +1,8 @@
 ---
 title: "Bauvorhaben Wilschdorf"
 date: 2019-05-14T11:14:34+06:00
-image: "images/blog/pic05.jpg"
+image: "images/blog/Wilschdorf_Lageplan_klein.jpg"
+imageStretch: false
 description: "This is meta description."
 draft: false
 ---

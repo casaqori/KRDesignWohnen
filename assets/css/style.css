@@ -3,7 +3,7 @@
 PROJECT: Project Name
 VERSION: Versoin Number
 -------------------------------------------------------------------*/
-@import "https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700";
+@import "https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700&display=swap";
 
 @font-face {
   font-family: bwnistaint-xbd;
@@ -21,7 +21,7 @@ body {
 
 p {
   font-weight: 400;
-  color: var(--light-color);
+  color: var(--text-color);
   font-size: 15px;
   line-height: 1.8;
   font-family: roboto, sans-serif
@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--text-color);
+  color: var(--dark-color);
   font-family: playfair display, serif;
   line-height: 1.2
 }
@@ -82,6 +82,10 @@ h5,
 h6,
 .h6 {
   font-size: 14px
+}
+
+.border-background {
+  border-color: var(--background-color) !important;
 }
 
 .border-primary {
@@ -196,7 +200,7 @@ h6,
 }
 
 body {
-  background-color: var(--primary-color);
+  background-color: var(--background-color);
   overflow-x: hidden
 }
 
@@ -211,7 +215,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--primary-color);
+  background-color: var(--background-color);
   z-index: 999999;
   display: flex;
   align-items: center;
@@ -312,7 +316,7 @@ a:hover {
 }
 
 .bg-light {
-  background-color: var(--light-color) !important
+  background-color: var(--background-contrastcolor) !important
 }
 
 .text-primary {
@@ -396,9 +400,9 @@ a:hover {
 }
 
 .shadow {
-  /*box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, .34) !important*/
+  box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, .34) !important
   /*TODO calc*/
-  box-shadow: 0 18px 39.1px 6.9px rgba(74, 91, 105, .34) !important
+  /*box-shadow: 0 18px 39.1px 6.9px rgba(74, 91, 105, .34) !important*/
 }
 
 .icon {
@@ -438,6 +442,21 @@ a:hover {
   border: 0
 }
 
+.slick-arrow {
+  border: 0;
+  background: transparent;
+}
+
+.slick-arrow:focus {
+  outline: 0;
+}
+
+
+.portfolio-slider img {
+  height: 310px;
+  object-fit: cover;
+}
+
 .form-control {
   border: 0;
   border-radius: 0;
@@ -457,7 +476,7 @@ textarea.form-control {
 
 .card {
   border: 0;
-  background-color: var(--dark-color);
+  background-color: var(--background-color);
 }
 
 .card-header {
@@ -502,7 +521,7 @@ textarea.form-control {
 }
 
 .navbar .navbar-nav .nav-link {
-  color: var(--text-color)
+  color: var(--light-color)
 }
 
 .hero-area {
@@ -511,8 +530,10 @@ textarea.form-control {
 }
 
 .hero-area.banner {
-  background-image: url("../images/illustrations/overlay.png"), linear-gradient(45deg, #0d0e0fa6, rgba(82, 62, 40, 0.65)), url("../images/illustrations/banner.jpg");
-  background-position: center -140px;
+  /*background-image: url("../images/illustrations/overlay.png"), linear-gradient(45deg, #0d0e0fa6, rgba(82, 62, 40, 0.65)), url("../images/illustrations/banner.jpg");*/
+  background-image: url("../images/illustrations/overlay.png"), linear-gradient(45deg, #0d0e0fa6, rgba(82, 62, 40, 0.85)), url("../images/illustrations/page-title-bg2.jpg");
+  /*background-position: center -140px;*/
+  background-position: center -60px;
   background-size: auto, cover, cover;
   background-attachment: fixed, fixed, fixed;
   background-repeat: repeat, no-repeat, no-repeat;
@@ -649,7 +670,7 @@ textarea.form-control {
 }
 
 .hover-bg-primary:hover * {
-  color: var(--text-color)
+  color: var(--secondary-color)
 }
 
 .active-bg-primary {
@@ -658,7 +679,7 @@ textarea.form-control {
 }
 
 .active-bg-primary * {
-  color: var(--text-color)
+  color: var(--secondary-color)
 }
 
 .hover-shadow {
@@ -794,13 +815,13 @@ textarea.form-control {
 blockquote {
   display: inline-block;
   padding: 10px 20px;
-  background: var(--dark-color);
+  background-color: var(--background-contrastcolor);
   border-left: 2px solid var(--secondary-color);
   font-style: italic;
   font-size: 22px
 }
 
-.content * {
+.content {
   margin-bottom: 20px
 }
 
