@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "http://examplesite.com"
+baseURL = "https://krdesign-wohnen.yotequiero.de"
 languageCode = "de-DE"
 summaryLength = "10"
 theme = "KRDesignWohnen"
