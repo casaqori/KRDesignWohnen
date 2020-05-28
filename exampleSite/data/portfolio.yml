@@ -1,64 +1,99 @@
 # portfolio item
 item:
-  - title : "Neubau Einfamilien-Wohnhaus"
-    image : "images/portfolio/Bad.jpg"
-    project_url : "/images/portfolio/Bad_voll.jpg"
-    categories: ["Ausbau","Architektur"]
-      
-  - title : "Innenarchitektur für Mehrgenerationenhaus"
-    image : "images/portfolio/Badewanne.jpg"
-    project_url : "/images/portfolio/Badewanne_voll.jpg"
+  - title : "Bauprojekt mit 6 Eigentumswohnungen in Coswig, Kastanienstraße 8"
+    image : "images/portfolio/Neubau.jpg"
+    project_url : "/images/portfolio/Neubau.jpg"
     categories: ["Neubau"]
       
-  - title : "Wintergartenanbau"
+  - title : "Bauprojekt Coswig mit 6 Eigentumswohnungen, Kastanienstraße 8"
+    image : "images/portfolio/Neubau-Architektur.jpg"
+    project_url : "/images/portfolio/Neubau-Architektur.jpg"
+    categories: ["Architektur"]
+
+  - title : "Bauprojekt Coswig mit 6 Eigentumswohnungen, Kastanienstraße 8"
+    image : "images/portfolio/Neubau-Architektur2.jpg"
+    project_url : "/images/portfolio/Neubau-Architektur2.jpg"
+    categories: ["Architektur"]
+      
+  - title : "Sanierungsloft Dresden-Neustadt mit 5 Eigentums-Luxus-Wohnungen"
+    image : "images/portfolio/green garten Townhaus.jpg"
+    project_url : "/images/portfolio/green garten Townhaus.jpg"
+    categories: ["Neubau"]
+
+  - title : "Sanierungsloft Dresden-Neustadt mit 5 Eigentums-Luxus-Wohnungen"
+    image : "images/portfolio/refencia_gebaude.jpg"
+    project_url : "/images/portfolio/refencia_gebaude.jpg"
+    categories: ["Neubau"]
+
+  - title : "Bauprojekt Eschdorf, mit vier Einfamilienhäusern"
+    image : "images/portfolio/Niedermuehle-Ensemble-Eschdorf.jpg"
+    project_url : "/images/portfolio/Niedermuehle-Ensemble-Eschdorf.jpg"
+    categories: ["Neubau"]
+
+  - title : "Nebengebäude Mühle Eschdorf: Zwei Einfamilienwohnhaus mit Wohnflächen zwischen 140 bis 160 m² und Grundstücksanteilen von 700 bis 1100 m²"
+    image : "images/portfolio/Niedermuehle-Nebengebaeude-Eschdorf.jpg"
+    project_url : "/images/portfolio/Niedermuehle-Nebengebaeude-Eschdorf_voll.jpg"
+    categories: ["Neubau", "Architektur"]
+
+  - title : "Nebengebäude Mühle Eschdorf: Zwei Einfamilienwohnhaus mit Wohnflächen zwischen 140 bis 160 m² und Grundstücksanteilen von 700 bis 1100 m²"
+    image : "images/portfolio/Niedermuehle-Nebengebaeude-Eschdorf2.jpg"
+    project_url : "/images/portfolio/Niedermuehle-Nebengebaeude-Eschdorf2.jpg"
+    categories: ["Architektur"]
+
+  - title : "Baugebiet Niedermühle Eschdorf, 4 Einfamilienwohnhäuser"
+    image : "images/portfolio/Niedermuehle-Eschdorf-Architektur.jpg"
+    project_url : "/images/portfolio/Niedermuehle-Eschdorf-Architektur.jpg"
+    categories: ["Architektur"]
+
+  - title : "Baugebiet Niedermühle Eschdorf, 4 Einfamilienwohnhäuser"
+    image : "images/portfolio/Niedermuehle-Eschdorf-Architektur2.jpg"
+    project_url : "/images/portfolio/Niedermuehle-Eschdorf-Architektur2.jpg"
+    categories: ["Architektur"]
+
+  - title : "Fassadenrenovierung"
     image : "images/portfolio/referenz_dresden.jpg"
     project_url : "/images/portfolio/referenz_dresden.jpg"
     categories: ["Renovierung"]
-      
-  - title : "Neubau Einfamilien-Wohnhaus"
-    image : "images/portfolio/Eschdorf.jpg"
-    project_url : "/images/portfolio/Eschdorf.jpg"
-    categories: ["Ausbau"]
-      
+
   - title : "Innenarchitektur für Mehrgenerationenhaus"
-    image : "images/portfolio/Eschdorf1.jpg"
-    project_url : "/images/portfolio/Eschdorf1.jpg"
-    categories: ["Renovierung","Architektur"]
-      
-  - title : "Neubau Einfamilien-Wohnhaus"
-    image : "images/portfolio/Eschdorf2.jpg"
-    project_url : "/images/portfolio/Eschdorf2.jpg"
-    categories: ["Ausbau"]
+    image : "images/portfolio/Bad.jpg"
+    project_url : "/images/portfolio/Bad_voll.jpg"
+    categories: ["Renovierung"]
+
+  - title : "Innenarchitektur für Mehrgenerationenhaus"
+    image : "images/portfolio/Badewanne.jpg"
+    project_url : "/images/portfolio/Badewanne_voll.jpg"
+    categories: ["Renovierung"]
       
   - title : "Fassadenrenovierung Altbau"
     image : "images/portfolio/9268300003-1_Ansicht V.jpg"
     project_url : "/images/portfolio/9268300003-1_Ansicht V.jpg"
-    categories: ["Neubau"]
+    categories: ["Grundrisse"]
       
   - title : "Innenarchitektur für Mehrgenerationenhaus"
     image : "images/portfolio/9268300003-1_Ansicht02.jpg"
     project_url : "/images/portfolio/9268300003-1_Ansicht02.jpg"
-    categories: ["Renovierung","Architektur"]
+    categories: ["Grundrisse"]
 
   - title : "Innenarchitektur für Mehrgenerationenhaus"
     image : "images/portfolio/9268300003-1_Ansicht05.jpg"
     project_url : "/images/portfolio/9268300003-1_Ansicht05.jpg"
-    categories: ["Renovierung","Architektur"]
+    categories: ["Grundrisse"]
       
   - title : "Fassadenrenovierung Altbau"
     image : "images/portfolio/9268300003-2_Ansicht V.jpg"
     project_url : "/images/portfolio/9268300003-2_Ansicht V.jpg"
-    categories: ["Neubau"]
+    categories: ["Grundrisse"]
 
   - title : "Fassadenrenovierung Altbau"
     image : "images/portfolio/9268300003-2_Ansicht05.jpg"
     project_url : "/images/portfolio/9268300003-2_Ansicht05.jpg"
-    categories: ["Neubau"]
+    categories: ["Grundrisse"]
 
   - title : "Fassadenrenovierung Altbau"
     image : "images/portfolio/9268300003-2_Ansicht06.jpg"
     project_url : "/images/portfolio/9268300003-2_Ansicht06.jpg"
-    categories: ["Neubau"]
+    categories: ["Grundrisse"]
 
 
 # client logo slider

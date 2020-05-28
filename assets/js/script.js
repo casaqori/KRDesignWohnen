@@ -157,7 +157,21 @@ $(window).on('load', function () {
 		autoplay: true,
 		autoplaySpeed: 6000,
 		arrows: false,
-		adaptiveHeight: true
+		adaptiveHeight: true,
+		responsive: [{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1
+			}
+		},
+		{
+			breakpoint: 600,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+		}]
 	});
 
 	$('.slick-slider').removeClass('inline');

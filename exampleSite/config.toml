@@ -56,7 +56,8 @@ weight = 5
 # default parameters
 [params]
 home = "Start"
-logo = "images/illustrations/logokr2.png"
+logo = "images/logo.png"
+logo_alt = "images/illustrations/logo_wte.png"
 
 # theme color
 #ligt theme
@@ -79,9 +80,9 @@ theme_darkcolor = "#222"
 #theme_darkcolor = "#212529"
 
 # contact info
-phone = "0172 351 6360"
-email = "riedel.dd@web.de"
-address = "Strasse des Friedens 29, Dresden"
+phone = "<a class='text-white' href='tel:+491723516360'>Uwe Riedel: 0172 351 6360</a><br/><a class='text-white' href='tel:+4915255375489'>Maik Kotas: 01525 537 5489</a>"
+email = "info@krdesign-wohnen.de"
+address = "Körnerplatz 1<br/>01326 Dresden"
 # meta description
 author = "Uwe Riedel"
 description = "This is meta description"

@@ -1,9 +1,11 @@
 <div class="portfolio-slider d-flex align-items-center">
   {{ range .Site.Data.portfolio.item }}
+  {{ if in .categories "Neubau" }}
   {{ if and ( ne .project_url "" ) ( ne .project_url "#" ) }}
   <a href="{{ .project_url | safeURL }}" class="text-center d-block outline-0 px-3"><img class="d-unset img-fluid rounded w-100" src="{{.image | absURL}}" title="{{.title}}" alt="portfolio-image"></a>
   {{ else }}
   <span class="text-center d-block outline-0 px-3"><img class="d-unset img-fluid rounded w-100" src="{{.image | absURL}}" title="{{.title}}" alt="portfolio-image"></span>
+  {{ end }}
   {{ end }}
   {{ end }}
 </div>

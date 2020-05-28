@@ -39,15 +39,15 @@
       <div class="row">
         <div class="col-md-4">
           <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.email}}</p>
+          <p class="text-white paragraph-lg font-secondary"><a class="text-white" href="mailto:{{.Site.Params.email}}">{{.Site.Params.email | safeHTML}}</a></p>
         </div>
         <div class="col-md-4">
           <h5 class="text-light">Telefon</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.phone}}</p>
+          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.phone | safeHTML}}</p>
         </div>
         <div class="col-md-4">
           <h5 class="text-light">Addresse</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.address}}</p>
+          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.address | safeHTML}}</p>
         </div>
       </div>
     </div>

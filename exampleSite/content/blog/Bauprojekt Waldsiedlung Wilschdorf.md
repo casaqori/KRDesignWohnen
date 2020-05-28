@@ -1,5 +1,5 @@
 ---
-title: "Bauvorhaben Wilschdorf"
+title: "Bauprojekt Waldsiedlung Wilschdorf"
 date: 2019-05-14T11:14:34+06:00
 image: "images/blog/Wilschdorf_Lageplan_klein.jpg"
 imageStretch: false

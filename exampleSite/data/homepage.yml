@@ -5,10 +5,8 @@ banner:
 # about
 about:
   enable : true
-  content : "Die K & R Design und Wohnen GmbH versteht sich als Haus- und Wohnungsbaudienstleister mit höchstem Anspruch. Unsere Kunden
-bekommen alle Leistungen um den Haus- und Wohnungsbau aus einer Hand. Von der Planung, über das Design, bis hin
-zum schlüsselfertigem Objekt. Es gibt keine Vorgaben zum Baustil, Bauart, Materialverwendung. Dies alles bestimmen die
-Kunden bei uns selbst. WIR zeigen Ihnen nur mit unseren Erfahrungen und Referenzen, Möglichkeiten."
+  content : "Die K & R Design und Wohnen GmbH steht für Haus- und Wohnungsbaudienstleister mit höchstem Anspruch. Unsere Kunden bekommen alle Leistungen um ihr Traumhaus sowie ihre geliebte Wohnung mit uns zu bauen, alles aus einer Hand von der Planung, das Design, bis hin zum Schlüsselfertigem Objekt.  Es gibt keine Vorgaben zum Baustil, Bauart oder Materialverwendung. Dies alles bestimmen die Kunden bei uns selbst.
+<br/><br/>WIR zeigen Ihnen mit unseren langjährigen Erfahrungen und Referenzen, die verschiedenen Möglichkeiten von klassische bis zu der modernen, hochwertigen Architektur. Alles in hoher Quantität und Vielfalt in der Ausführung.</p>"
   button:
     enable : false
     label : "Über Uns"
@@ -57,43 +55,59 @@ experience:
 
 # education
 education:
-  enable : true
+  enable : false
   title : "Dienstleistungen"
   item:
     - title : "Planung"
       year : ""
-      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       
     - title : "Außen- und Innenarchitektur"
       year : ""
-      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       
     - title : "Bauausführung"
       year : ""
-      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-      
+      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
     - title : "Gartenbau"
       year : ""
-      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 # service
 service:
   enable : true
-  title : "Projekteindrücke"
+  title : "Dienstleistungen"
   item:
-    - title : "Neubau Einfamilien-Wohnhaus"
-      icon : "ti-palette"
-      content : "2020 - Dresden, Neustadt</br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Planung"
+      icon : "ti-agenda"
+      content : "Unser Konzept fundiert auf der Idee mit Ihnen Ihr Traumhaus zu bauen und planen.
+
+
+Bei der Auswahl unserer Immobilienprojekte berücksichtigen wir die individuelle Ausgestattung nach Ihren persönliche Vorlieben. Wir bearbeiten unsere Projekte mit Ihnen nach Ihren Wünschen, Bedürfnissen und Vorstellungen. Sie haben bei uns die Möglichkeit Ihre bevorzugten Baustoffen zu wählen und Ihre Ideen zur Architektur bei uns einzubringen.
+
+
+Sie bekommen damit alle Leistungen aus nur einer Hand: Planen, Designen und Bauen"
       highlighted : false
 
-    - title : "Innenarchitektur für Mehrgenerationenhaus"
-      icon : "ti-vector"
-      content : "2018 - Pirna, Altstadt</br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Außen- und Innenarchitektur"
+      icon : "ti-ruler-alt-2"
+      content : "Nutzerfreundliche und gut durchdachte Grundrisse skizzieren, anspruchsvolle Architektur planen sowie energetisch moderne Häuser bauen und sanieren – das ist unser Anspruch und unser Versprechen."
       highlighted : true
 
-    - title : "Fassadenrenovierung Altbau"
-      icon : "ti-panel"
-      content : "2016 - Graupa, Ringstraße</br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet."
+    - title : "Bauausführung"
+      icon : "ti-hummer"
+      content : "Die Ausführung der Bauvorhaben erfolgt mit fachfremden, welche seit Jahren mit uns zusammenarbeiten.    
+      Wie zum Beispiel
+
+
+Bau Riedel Dresden GmbH
+
+
+Kuba Dach- und Holzbau
+
+
+NL Bau GmbH"
       highlighted : false
 
 # portfolio

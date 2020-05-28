@@ -26,15 +26,15 @@ team:
   team_member:
     - title : "Maik Kotas"
       image : "images/team/member-1.png"
-      designation : "Immobilienmakler seit 1990...Ausbildung als Bankkaufmann, im Bauträgergeschäft sied 1975 unterwegs usw. usw."
+      designation : "Immobilienmakler seit 1990...Ausbildung als Bankkaufmann, im Bauträgergeschäft sied 1975 unterwegs<br/>Tel.: 01525 537 548 9"
 
-    - title : "Hubert Zahn"
+    - title : "<small>Dipl.-Ing. Architekt</small> Hubert Zahn"
       image : "images/team/member-3.png"
-      designation : "Architekt, studiert in Hamburg usw. usw."
+      designation : "Architektur-Studium Hamburg<br/>Am Brauhaus 10, 01099 Dresden<br/>Tel.: 0351 329 28 167<br/>mob.: +01522 230 299 5<br/>E-Mail: zahnhubert@yahoo.de"
       
     - title : "Uwe Riedel"
       image : "images/about/author.jpg"
-      designation : "seit 1995 tätig in der Projektentwicklung, Bauausführung und Bauträgertätigkeit"
+      designation : "seit 1995 tätig in der Projektentwicklung, Bauausführung und Bauträgertätigkeit<br/>Tel.: 0172 351 6360"
 
 
 # client logo slider
