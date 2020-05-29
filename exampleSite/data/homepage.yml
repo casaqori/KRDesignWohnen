@@ -5,8 +5,8 @@ banner:
 # about
 about:
   enable : true
-  content : "Die K & R Design und Wohnen GmbH steht für Haus- und Wohnungsbaudienstleister mit höchstem Anspruch. Unsere Kunden bekommen alle Leistungen um ihr Traumhaus sowie ihre geliebte Wohnung mit uns zu bauen, alles aus einer Hand von der Planung, das Design, bis hin zum Schlüsselfertigem Objekt.  Es gibt keine Vorgaben zum Baustil, Bauart oder Materialverwendung. Dies alles bestimmen die Kunden bei uns selbst.
-<br/><br/>WIR zeigen Ihnen mit unseren langjährigen Erfahrungen und Referenzen, die verschiedenen Möglichkeiten von klassische bis zu der modernen, hochwertigen Architektur. Alles in hoher Quantität und Vielfalt in der Ausführung.</p>"
+  content : "Die K & R Design und Wohnen GmbH steht für Haus- und Wohnungsbau&shy;dienstleister mit höchstem Anspruch. Unsere Kunden erhalten alle Leistungen um ihr Traumhaus sowie ihre geliebte Wohnung mit uns zu bauen aus einer Hand. 
+<br/><br/>WIR zeigen Ihnen mit unseren langjährigen Erfahrungen und Referenzen, die verschiedenen Möglichkeiten in allen Baubereichen, ob klassische oder moderne Architektur, oder hochwertiges Baumaterial.</p>"
   button:
     enable : false
     label : "Über Uns"
@@ -56,7 +56,7 @@ experience:
 # education
 education:
   enable : false
-  title : "Dienstleistungen"
+  title : "Dienst&shy;leistungen"
   item:
     - title : "Planung"
       year : ""
@@ -77,17 +77,12 @@ education:
 # service
 service:
   enable : true
-  title : "Dienstleistungen"
+  title : "Dienst&shy;leistungen"
+  content : "Unser Konzept fundiert auf der Idee mit Ihnen Ihr Traumhaus zu bauen und planen. Bei der Auswahl unserer Immobilienprojekte berücksichtigen wir die individuelle Ausgestaltung nach Ihren persönliche Vorlieben. Ihre Vorstellungen über den Baustil, die Bauart, das Material usw. möchten wir gern realisieren. Sie bekommen damit alle Leistungen aus nur einer Hand: Planen, Designen und Bauen"
   item:
     - title : "Planung"
       icon : "ti-agenda"
-      content : "Unser Konzept fundiert auf der Idee mit Ihnen Ihr Traumhaus zu bauen und planen.
-
-
-Bei der Auswahl unserer Immobilienprojekte berücksichtigen wir die individuelle Ausgestattung nach Ihren persönliche Vorlieben. Wir bearbeiten unsere Projekte mit Ihnen nach Ihren Wünschen, Bedürfnissen und Vorstellungen. Sie haben bei uns die Möglichkeit Ihre bevorzugten Baustoffen zu wählen und Ihre Ideen zur Architektur bei uns einzubringen.
-
-
-Sie bekommen damit alle Leistungen aus nur einer Hand: Planen, Designen und Bauen"
+      content : "Wir bearbeiten unsere Projekte mit Ihnen nach Ihren Wünschen, Bedürfnissen und Vorstellungen. Sie haben bei uns die Möglichkeit Ihre bevorzugten Baustoffen zu wählen und Ihre Ideen zur Architektur bei uns einzubringen."
       highlighted : false
 
     - title : "Außen- und Innenarchitektur"
@@ -97,17 +92,15 @@ Sie bekommen damit alle Leistungen aus nur einer Hand: Planen, Designen und Baue
 
     - title : "Bauausführung"
       icon : "ti-hummer"
-      content : "Die Ausführung der Bauvorhaben erfolgt mit fachfremden, welche seit Jahren mit uns zusammenarbeiten.    
-      Wie zum Beispiel
+      content : "Die Ausführung der Bauvorhaben erfolgt mit fachfremden, welche seit Jahren mit uns zusammenarbeiten. *Wie zum Beispiel*
 
 
-Bau Riedel Dresden GmbH
+-  Bau Riedel Dresden GmbH
 
+-  Kuba Dach- und Holzbau
 
-Kuba Dach- und Holzbau
-
-
-NL Bau GmbH"
+-  NL Bau GmbH
+"
       highlighted : false
 
 # portfolio

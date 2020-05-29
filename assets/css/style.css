@@ -17,6 +17,9 @@ body {
   font-family: roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
+  /* -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto; */
 }
 
 p {
@@ -51,6 +54,14 @@ h1,
   }
 }
 
+@media(max-width:767px) {
+
+  h1,
+  .h1 {
+    font-size: 50px
+  }
+}
+
 h2,
 .h2 {
   font-size: 60px
@@ -64,9 +75,34 @@ h2,
   }
 }
 
+@media(max-width:767px) {
+
+  h2,
+  .h2 {
+    font-size: 40px
+  }
+}
+
+
 h3,
 .h3 {
   font-size: 40px
+}
+
+@media(max-width:991px) {
+
+  h3,
+  .h3 {
+    font-size: 32px
+  }
+}
+
+@media(max-width:767px) {
+
+  h3,
+  .h3 {
+    font-size: 26px
+  }
 }
 
 h4,
@@ -498,15 +534,14 @@ textarea.form-control {
 }
 
 @media(max-width:991px) {
-  .navigation.nav-bg {
-    padding: 15px 20px
-  }
-}
 
-@media(max-width:991px) {
   .navigation {
-    padding: 20px;
-    background-color: var(--primary-color);
+    padding: 12px 12px;
+    background-color: var(--dark-color);
+  }
+
+  .navigation.nav-bg {
+    padding: 12px 12px
   }
 }
 
@@ -529,29 +564,49 @@ textarea.form-control {
   position: relative
 }
 
-.hero-area.banner {
-  /*background-image: url("../images/illustrations/overlay.png"), linear-gradient(45deg, #0d0e0fa6, rgba(82, 62, 40, 0.65)), url("../images/illustrations/banner.jpg");*/
-  background-image: url("../images/illustrations/overlay.png"), linear-gradient(45deg, #0d0e0fa6, rgba(82, 62, 40, 0.85)), url("../images/illustrations/page-title-bg.jpg");
-  /*background-position: center -140px;*/
-  background-position: center -60px;
+/* .hero-area.banner {
+  background-image: url("../images/illustrations/overlay.png"), linear-gradient(45deg, #0d0e0fa6, rgba(82, 62, 40, 0.65)), url("../images/illustrations/banner.jpg");
+  background-position: center;
   background-size: auto, cover, cover;
   background-attachment: fixed, fixed, fixed;
   background-repeat: repeat, no-repeat, no-repeat;
   position: relative;
   min-height: 70vh;
-  height: 35em;
-}
+  height: 45em;
+} */
 
-@media(max-width:767px) {
-  .hero-area {
-    padding: 200px 0 150px;
-    overflow: hidden
-  }
+.banner {
+  background-image: linear-gradient(45deg, #0d0e0fa6, rgba(82, 62, 40, 0.85)), url("../images/illustrations/page-title-bg.jpg");
+  background-position-y: center, 0px;
+  background-size: auto, cover;
+  background-attachment: fixed, fixed;
+  background-repeat: repeat, no-repeat;
+  position: relative;
+  min-height: 70vh;
+  height: 45em;
 }
 
 .hero-area h1 {
   position: relative;
   z-index: 2
+}
+
+#logo-alt {
+  max-width: 100%;
+  /* max-height: 50vh; */
+}
+
+@media(max-width:767px) {
+
+  .hero-area {
+    padding: 200px 0 150px;
+    overflow: hidden
+  }
+
+  .hero-area.banner {
+    min-height: 40vh;
+    height: 35em;
+  }
 }
 
 .layer {
@@ -905,7 +960,7 @@ blockquote {
 }
 
 .page-title {
-  padding: 250px 0 150px
+  padding: 200px 0 130px
 }
 
 .page-title .container {

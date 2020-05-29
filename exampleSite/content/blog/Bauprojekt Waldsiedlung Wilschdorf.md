@@ -18,7 +18,7 @@ Die herrlichen Wander- und Radwege der ruhigen Natur im Landschaftsschutzgebiet 
 
 {{< figure src="/images/blog/Wilschdorf/Wilschdorf-Wohnbeispiel.jpg" link="/images/blog/Wilschdorf/Wilschdorf-Wohnbeispiel.jpg" caption="Wohnbeispiel" class="rounded text-center float-left mb-3 mr-5" width="400">}}
 
-### Bau-und Nutzungskonzept
+### Bau- und Nutzungs&shy;konzept
 
 Auf Grund der ruhigen Lage, nur 200m vom Waldrand entfernt, wird das Projekt *WALDSIEDLUNG WILSCHDORF* für Familien, Kinder, Großeltern und Tierliebhaber entstehen. Auf einem Areal von rund 12,923 m² bieten wir ca. 17 individuelle Einfamilienhäuser für die unterschiedlichen Ansprüche.
 
@@ -34,7 +34,7 @@ Mit Ihren ausgewählten Baustoffen und den Vorstellungen, die Sie über die Arch
 
 - Gesamtfläche: 12.923 m²
 
-- erwerbbare Grundfläche: 400 bis 700 m²
+- Grundstücksflächen: 400 bis 700 m²
 
 - Wohnflächen: von 120 bis 160 m²
 

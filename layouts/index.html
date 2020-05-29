@@ -2,15 +2,17 @@
 
   <!-- hero area -->
   <section class="hero-area banner bg-primary overflow-hidden" id="parallax">
+     <!--
     <div class="container">
       <div class="row">
         <div class="col-lg-11 mx-auto">
-          <!--<h1 class="text-secondary font-tertiary">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>-->
+         <h1 class="text-secondary font-tertiary">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>
         </div>
       </div>
     </div>
+    -->
     <div class="layer-bg w-100 text-center">
-      <img src="{{ .Site.Params.logo_alt | absURL }}" alt="{{.Site.Title}}">
+      <img id="logo-alt" src="{{ .Site.Params.logo_alt | absURL }}" alt="{{.Site.Title}}">
     </div>
     <!--
     <div class="layer-bg w-100">
@@ -169,6 +171,7 @@
       <div class="row">
         <div class="col-12 text-center">
           <h2 class="section-title">{{ .title | markdownify }}</h2>
+          <p class="font-secondary lead mb-5">{{.content | markdownify}}</p>
         </div>
         {{ range .item }}
         <div class="col-md-4 mb-4">
