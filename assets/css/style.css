@@ -834,6 +834,11 @@ blockquote {
   line-height: 1.5
 }
 
+.content h3 {
+  margin-bottom: 30px;
+  font-family: bwnistaint-xbd
+}
+
 .border-thick {
   border: 10px solid
 }
