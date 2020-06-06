@@ -12,7 +12,7 @@
             {{if not .Params.ImageHide}}
             <img src="{{.Params.Image | absURL }}" alt="post-thumb" class="img-fluid rounded float-left mb-4 {{if .Params.ImageStretch}}w-100{{else}}mr-5{{end}}">
             {{end}}
-            {{.Content }}
+            {{ .Content }}
           </div>
         </div>
       </div>

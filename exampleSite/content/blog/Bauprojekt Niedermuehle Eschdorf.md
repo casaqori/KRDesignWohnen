@@ -4,7 +4,7 @@ date: 2019-05-13T12:14:34+06:00
 image: "images/blog/Eschdorf/eschdorf_muehle_titel.jpg"
 imageStretch: true
 imageHide: false
-description: "This is meta description."
+description: "Mit ausgewählten Baustoffen unter Beibehaltung der ursprünglichen Architektur, errichteten wir ein Fachwerkhaus in Dürrröhrsdorf-Dittersbach."
 draft: false
 ---
 

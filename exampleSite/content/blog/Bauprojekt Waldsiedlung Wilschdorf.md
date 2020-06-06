@@ -3,20 +3,20 @@ title: "Bauprojekt Waldsiedlung Wilschdorf"
 date: 2019-05-14T11:14:34+06:00
 image: "images/blog/Wilschdorf/Wilschdorf-Waldsiedlung-Landkarte.jpg"
 imageStretch: false
-description: "This is meta description."
+imageHide: false
+description: "Mit Ihren ausgewählten Baustoffen und Ihren Vorstellungen zur Architektur, werden wir Ihr Traumhaus in Dürrröhrsdorf-Dittersbach bauen."
 draft: false
 ---
 
 ### Lage
-<!--{.section-title}-->
 
 WALDSIEDLUNG WILSCHDORF ist ein einzigartiges Immobilienprojekt mit moderne Architektur auf einer besonderen Grünfläche. Das attraktive Neubaugebiet, welches landschaftlich reizvoll ist, liegt in Wilschdorf, ein schöner Ortsteil der Gemeinde Dürrröhrsdorf-Dittersbach.
 
 Die herrlichen Wander- und Radwege der ruhigen Natur im Landschaftsschutzgebiet laden ein, den schönen Ort kennenzulernen.
-
-<span class="clearfix"></span>
-
-{{< figure src="/images/blog/Wilschdorf/Wilschdorf-Wohnbeispiel.jpg" link="/images/blog/Wilschdorf/Wilschdorf-Wohnbeispiel.jpg" caption="Wohnbeispiel" class="rounded text-center float-left mb-3 mr-sm-5 mw-400" width="100%">}}
+<div class="clearfix"></div>
+<div class="row">
+{{< figure src="/images/blog/Wilschdorf/Wilschdorf-Wohnbeispiel.jpg" link="/images/blog/Wilschdorf/Wilschdorf-Wohnbeispiel.jpg" caption="Wohnbeispiel" class="col-lg-4 col-md-6 text-center" width="100%">}}
+<div class="col-lg-8 col-md-6 mb-3">
 
 ### Bau- und Nutzungs&shy;konzept
 
@@ -26,9 +26,11 @@ Unser Konzept steht für Individualität, Nachhaltigkeit und Innovation. Beim Ba
 
 Mit Ihren ausgewählten Baustoffen und den Vorstellungen, die Sie über die Architektur haben, werden wir Ihr Traumhaus bauen.
 
-<span class="clearfix"></span>
-
-{{< figure src="/images/blog/Wilschdorf/wilschdorf-umgebung_02_stolpen.jpg" link="/images/blog/Wilschdorf/wilschdorf-umgebung_02_stolpen_voll.jpg" caption="Umgebung - Sicht auf Stolpen" class="rounded text-center float-left mb-3 mr-sm-5 mw-400" width="100%">}}
+</div>
+</div>
+<div class="row">
+{{< figure src="/images/blog/Wilschdorf/wilschdorf-umgebung_02_stolpen.jpg" link="/images/blog/Wilschdorf/wilschdorf-umgebung_02_stolpen_voll.jpg" caption="Umgebung - Sicht auf Stolpen" class="col-lg-4 col-md-6 text-center" width="100%">}}
+<div class="col-lg-8 col-md-6 mb-3">
 
 ### Angaben zum Projekt
 
@@ -46,9 +48,11 @@ Mit Ihren ausgewählten Baustoffen und den Vorstellungen, die Sie über die Arch
 
 - Fahrzeit zum nächsten Flughafen: 20 Min.
 
-<span class="clearfix"></span>
-
-{{< figure src="/images/blog/Wilschdorf/wilschdorf-see_03.jpg" link="/images/blog/Wilschdorf/wilschdorf-see_03_voll.jpg" caption="Am Hofeteich" class="rounded text-center float-left mb-3 mr-sm-5 mw-400" width="100%">}}
+</div>
+</div>
+<div class="row">
+{{< figure src="/images/blog/Wilschdorf/wilschdorf-see_03.jpg" link="/images/blog/Wilschdorf/wilschdorf-see_03_voll.jpg" caption="Am Hofeteich" class="col-lg-4 col-md-6 text-center" width="100%">}}
+<div class="col-lg-8 col-md-6 mb-3">
 
 ### Highlights des Projektes
 
@@ -63,3 +67,6 @@ Mit Ihren ausgewählten Baustoffen und den Vorstellungen, die Sie über die Arch
 - helle und großzügige Wohneinheiten mit Ihren Architekturvorstellungen
 
 - Baubeschreibung nach Ihren Wünschen
+
+</div>
+</div>
