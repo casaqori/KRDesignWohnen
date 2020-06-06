@@ -60,7 +60,7 @@ weight = 5
 [params]
 home = "Start"
 logo = "images/logo.png"
-logo_alt = "images/illustrations/logo_wte.png"
+logo_alt = "images/LogoLarge.png"
 
 # theme color
 #ligt theme
