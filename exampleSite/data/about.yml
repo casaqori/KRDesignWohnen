@@ -21,7 +21,7 @@ work_process:
 
 # team
 team:
-  enable: false
+  enable: true
   title : "Das sind wir"
   team_member:
     - title : "Maik Kotas"
