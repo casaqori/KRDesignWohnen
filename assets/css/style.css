@@ -310,6 +310,12 @@ a:hover {
   font-family: bwnistaint-xbd
 }
 
+.section-legal ol,
+.section-legal ul {
+  list-style-type: inherit;
+  margin: inherit
+}
+
 .bg-cover {
   background-size: cover;
   background-position: 50%;
@@ -373,6 +379,10 @@ a:hover {
 
 .text-light {
   color: var(--light-color) !important
+}
+
+.mw-400 {
+  max-width: 400px!important
 }
 
 .mb-10 {

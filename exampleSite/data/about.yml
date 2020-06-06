@@ -21,8 +21,8 @@ work_process:
 
 # team
 team:
-  enable: true
-  title : "Das sind Wir"
+  enable: false
+  title : "Das sind wir"
   team_member:
     - title : "Maik Kotas"
       image : "images/team/member-1.png"
@@ -40,5 +40,5 @@ team:
 # client logo slider
 clients_logo_slider:
   enable : true
-  title : "Unsere Kunden"
+  title : "Unsere Partner"
   # clients logo comes from 'data/homepage.yml' file

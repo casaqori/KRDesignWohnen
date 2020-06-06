@@ -1,9 +1,9 @@
 ---
 title: "Bauprojekt Niedermühle Eschdorf"
 date: 2019-05-13T12:14:34+06:00
-image: "images/blog/Eschdorf/eschdorf-muehle_05_20_3_title.jpg"
-imageStretch: false
-imageHide: true
+image: "images/blog/Eschdorf/eschdorf_muehle_titel.jpg"
+imageStretch: true
+imageHide: false
 description: "This is meta description."
 draft: false
 ---

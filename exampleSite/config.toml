@@ -3,7 +3,7 @@ baseURL = "https://krdesign-wohnen.yotequiero.de"
 languageCode = "de-DE"
 summaryLength = "10"
 theme = "KRDesignWohnen"
-title = "K & R Design und Wohnen"
+title = "K & R Design und Wohnen GmbH"
 
 # css plugins
 [[params.plugins.css]]
@@ -48,7 +48,7 @@ weight = 3
 #weight = 4
 
 [[menu.main]]
-URL = "legal"
+URL = "legal/impressum"
 name = "Impressum"
 weight = 5
 
@@ -90,6 +90,8 @@ description = "This is meta description"
 google_analytics_id = "" # Your ID
 # copyright
 copyright = "Copyright &copy; 2020"
+legal1 = "Impressum"
+legal2 = "Datenschutz"
 
 
 # contact

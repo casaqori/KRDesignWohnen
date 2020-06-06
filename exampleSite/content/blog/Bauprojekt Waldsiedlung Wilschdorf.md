@@ -1,7 +1,7 @@
 ---
 title: "Bauprojekt Waldsiedlung Wilschdorf"
 date: 2019-05-14T11:14:34+06:00
-image: "images/blog/Wilschdorf/Wilschdorf-Landkarte.jpg"
+image: "images/blog/Wilschdorf/Wilschdorf-Waldsiedlung-Landkarte.jpg"
 imageStretch: false
 description: "This is meta description."
 draft: false
@@ -10,17 +10,17 @@ draft: false
 ### Lage
 <!--{.section-title}-->
 
-*WALDSIEDLUNG WILSCHDORF* ist ein einzigartiges Immobilienprojekt mit moderne Architektur auf einer besonderen Grünfläche. Das attraktive Neubaugebiet, welches landschaftlich reizvoll ist, liegt in Wilschdorf, ein schöner Ortsteil der Gemeinde Dürrröhrsdorf-Dittersbach.
+WALDSIEDLUNG WILSCHDORF ist ein einzigartiges Immobilienprojekt mit moderne Architektur auf einer besonderen Grünfläche. Das attraktive Neubaugebiet, welches landschaftlich reizvoll ist, liegt in Wilschdorf, ein schöner Ortsteil der Gemeinde Dürrröhrsdorf-Dittersbach.
 
 Die herrlichen Wander- und Radwege der ruhigen Natur im Landschaftsschutzgebiet laden ein, den schönen Ort kennenzulernen.
 
 <span class="clearfix"></span>
 
-{{< figure src="/images/blog/Wilschdorf/Wilschdorf-Wohnbeispiel.jpg" link="/images/blog/Wilschdorf/Wilschdorf-Wohnbeispiel.jpg" caption="Wohnbeispiel" class="rounded text-center float-left mb-3 mr-5" width="400">}}
+{{< figure src="/images/blog/Wilschdorf/Wilschdorf-Wohnbeispiel.jpg" link="/images/blog/Wilschdorf/Wilschdorf-Wohnbeispiel.jpg" caption="Wohnbeispiel" class="rounded text-center float-left mb-3 mr-sm-5 mw-400" width="100%">}}
 
 ### Bau- und Nutzungs&shy;konzept
 
-Auf Grund der ruhigen Lage, nur 200m vom Waldrand entfernt, wird das Projekt *WALDSIEDLUNG WILSCHDORF* für Familien, Kinder, Großeltern und Tierliebhaber entstehen. Auf einem Areal von rund 12,923 m² bieten wir ca. 17 individuelle Einfamilienhäuser für die unterschiedlichen Ansprüche.
+Auf Grund der ruhigen Lage, nur 200 m vom Waldrand entfernt, wird das Projekt WALDSIEDLUNG WILSCHDORF für Familien, Kinder, Großeltern und Tierliebhaber entstehen. Auf einem Areal von rund 12,923 m² bieten wir ca. 17 individuelle Einfamilienhäuser für die unterschiedlichen Ansprüche.
 
 Unser Konzept steht für Individualität, Nachhaltigkeit und Innovation. Beim Bau wird viel Wert auf Funktionalität und Individualität gelegt.
 
@@ -28,7 +28,7 @@ Mit Ihren ausgewählten Baustoffen und den Vorstellungen, die Sie über die Arch
 
 <span class="clearfix"></span>
 
-{{< figure src="/images/blog/Wilschdorf/wilschdorf-umgebung_02_stolpen.jpg" link="/images/blog/Wilschdorf/wilschdorf-umgebung_02_stolpen_voll.jpg" caption="Umgebung - Sicht auf Stolpen" class="rounded text-center float-left mb-3 mr-5" width="400">}}
+{{< figure src="/images/blog/Wilschdorf/wilschdorf-umgebung_02_stolpen.jpg" link="/images/blog/Wilschdorf/wilschdorf-umgebung_02_stolpen_voll.jpg" caption="Umgebung - Sicht auf Stolpen" class="rounded text-center float-left mb-3 mr-sm-5 mw-400" width="100%">}}
 
 ### Angaben zum Projekt
 
@@ -48,7 +48,7 @@ Mit Ihren ausgewählten Baustoffen und den Vorstellungen, die Sie über die Arch
 
 <span class="clearfix"></span>
 
-{{< figure src="/images/blog/Wilschdorf/wilschdorf-see_03.jpg" link="/images/blog/Wilschdorf/wilschdorf-see_03_voll.jpg" caption="Wilschdorfer See" class="rounded text-center float-left mb-3 mr-5" width="400">}}
+{{< figure src="/images/blog/Wilschdorf/wilschdorf-see_03.jpg" link="/images/blog/Wilschdorf/wilschdorf-see_03_voll.jpg" caption="Am Hofeteich" class="rounded text-center float-left mb-3 mr-sm-5 mw-400" width="100%">}}
 
 ### Highlights des Projektes
 

@@ -14,36 +14,86 @@ item:
     image : "images/portfolio/Neubau-Architektur2.jpg"
     project_url : "/images/portfolio/Neubau-Architektur2.jpg"
     categories: ["Architektur"]
-      
-  - title : "Sanierungsloft Dresden-Neustadt mit 5 Eigentums-Luxus-Wohnungen"
-    image : "images/portfolio/green garten Townhaus.jpg"
-    project_url : "/images/portfolio/green garten Townhaus.jpg"
+
+  - title : "Sanierungsloft \"Green Village\" in ehemaligen Fabrikgebäude, Seifhennersdorfer Straße 16 in Dresden"
+    image : "images/portfolio/GreenVillage_Ensemble.jpg"
+    project_url : "/images/portfolio/GreenVillage_Ensemble.jpg"
     categories: ["Neubau"]
 
-  - title : "Sanierungsloft Dresden-Neustadt mit 5 Eigentums-Luxus-Wohnungen"
-    image : "images/portfolio/refencia_gebaude.jpg"
-    project_url : "/images/portfolio/refencia_gebaude.jpg"
-    categories: ["Neubau"]
+  - title : "Sanierungsloft \"Green Village\" mit 5 Eigentums-Luxus-Wohnungen, Seifhennersdorfer Straße 16 in Dresden"
+    image : "images/portfolio/GreenVillage_Stadthaus.jpg"
+    project_url : "/images/portfolio/GreenVillage_Stadthaus.jpg"
+    categories: ["Neubau", "Renovierung"]
+
+  - title : "Sanierungsloft \"Green Village\" mit 5 Eigentums-Luxus-Wohnungen, Seifhennersdorfer Straße 16 in Dresden"
+    image : "images/portfolio/GreenVillage_Stadthaus_Architektur1.jpg"
+    project_url : "/images/portfolio/GreenVillage_Stadthaus_Architektur1.jpg"
+    categories: ["Architektur"]
+
+  - title : "Loft mit 4 Raum Luxus-Wohnungen - \"Green Village\" Erdgeschoss, Seifhennersdorfer Straße 16 in Dresden"
+    image : "images/portfolio/GreenVillage_Stadthaus_Grundriss1.jpg"
+    project_url : "/images/portfolio/GreenVillage_Stadthaus_Grundriss1.jpg"
+    categories: ["Grundrisse"]
+
+  - title : "Loft mit 5 Raum Luxus Wohnunge - \"Green Village\" 1. Obergeschoss, Seifhennersdorfer Straße 16 in Dresden"
+    image : "images/portfolio/GreenVillage_Stadthaus_Grundriss2.jpg"
+    project_url : "/images/portfolio/GreenVillage_Stadthaus_Grundriss2.jpg"
+    categories: ["Grundrisse"]
+
+  - title : "Sanierung Villa, Ansicht Straßenseite, August-Bebel-Str. 23 in Dresden"
+    image : "images/portfolio/Villa-ABebelDD-Architektur1.jpg"
+    project_url : "/images/portfolio/Villa-ABebelDD-Architektur1.jpg"
+    categories: ["Architektur"]
+
+  - title : "Sanierung Villa, Ansicht Hofseite, August-Bebel-Str. 23 in Dresden"
+    image : "images/portfolio/Villa-ABebelDD-Architektur2.jpg"
+    project_url : "/images/portfolio/Villa-ABebelDD-Architektur2.jpg"
+    categories: ["Architektur"]
+
+  - title : "Sanierung Villa, Grundriss Erdgeschoss, August-Bebel-Str. 23 in Dresden"
+    image : "images/portfolio/Villa-ABebelDD-Grundriss1.jpg"
+    project_url : "/images/portfolio/Villa-ABebelDD-Grundriss1.jpg"
+    categories: ["Grundrisse"]
+
+  - title : "Sanierung Villa, Grundriss Dachgeschoss, August-Bebel-Str. 23 in Dresden"
+    image : "images/portfolio/Villa-ABebelDD-Grundriss2.jpg"
+    project_url : "/images/portfolio/Villa-ABebelDD-Grundriss2.jpg"
+    categories: ["Grundrisse"]
+
+  - title : "Sanierung Villa, An der Berglehne 1 in Dresden"
+    image : "images/portfolio/Villa-BerglehneDD-Architektur1.jpg"
+    project_url : "/images/portfolio/Villa-BerglehneDD-Architektur1.jpg"
+    categories: ["Architektur"]  
+
+  - title : "Sanierung Villa, An der Berglehne 1 in Dresden"
+    image : "images/portfolio/Villa-BerglehneDD-Architektur2.jpg"
+    project_url : "/images/portfolio/Villa-BerglehneDD-Architektur2.jpg"
+    categories: ["Architektur"]
+
+  - title : "Sanierung Villa, An der Berglehne 1 in Dresden"
+    image : "images/portfolio/Villa-BerglehneDD-Architektur4.jpg"
+    project_url : "/images/portfolio/Villa-BerglehneDD-Architektur4.jpg"
+    categories: ["Architektur"]
+
+  - title : "Sanierung Villa, An der Berglehne 1 in Dresden"
+    image : "images/portfolio/Villa-BerglehneDD-Grundriss1.jpg"
+    project_url : "/images/portfolio/Villa-BerglehneDD-Grundriss1.jpg"
+    categories: ["Grundrisse"]
 
   - title : "Bauprojekt Eschdorf, mit vier Einfamilienhäusern"
     image : "images/portfolio/Niedermuehle-Ensemble-Eschdorf.jpg"
     project_url : "/images/portfolio/Niedermuehle-Ensemble-Eschdorf.jpg"
-    categories: ["Neubau"]
+    categories: ["Architektur"]
 
   - title : "Nebengebäude Mühle Eschdorf: Zwei Einfamilienwohnhaus mit Wohnflächen zwischen 140 bis 160 m² und Grundstücksanteilen von 700 bis 1100 m²"
     image : "images/portfolio/Niedermuehle-Nebengebaeude-Eschdorf.jpg"
     project_url : "/images/portfolio/Niedermuehle-Nebengebaeude-Eschdorf_voll.jpg"
-    categories: ["Neubau", "Architektur"]
+    categories: ["Neubau"]
 
   - title : "Nebengebäude Mühle Eschdorf: Zwei Einfamilienwohnhaus mit Wohnflächen zwischen 140 bis 160 m² und Grundstücksanteilen von 700 bis 1100 m²"
     image : "images/portfolio/Niedermuehle-Nebengebaeude-Eschdorf2.jpg"
     project_url : "/images/portfolio/Niedermuehle-Nebengebaeude-Eschdorf2.jpg"
-    categories: ["Architektur"]
-
-  - title : "Baugebiet Niedermühle Eschdorf, 4 Einfamilienwohnhäuser"
-    image : "images/portfolio/Niedermuehle-Eschdorf-Architektur.jpg"
-    project_url : "/images/portfolio/Niedermuehle-Eschdorf-Architektur.jpg"
-    categories: ["Architektur"]
+    categories: ["Neubau"]
 
   - title : "Baugebiet Niedermühle Eschdorf, 4 Einfamilienwohnhäuser"
     image : "images/portfolio/Niedermuehle-Eschdorf-Architektur2.jpg"
@@ -75,16 +125,6 @@ item:
     project_url : "/images/portfolio/9268300003-1_Ansicht02.jpg"
     categories: ["Grundrisse"]
 
-  - title : "Innenarchitektur für Mehrgenerationenhaus"
-    image : "images/portfolio/9268300003-1_Ansicht05.jpg"
-    project_url : "/images/portfolio/9268300003-1_Ansicht05.jpg"
-    categories: ["Grundrisse"]
-      
-  - title : "Fassadenrenovierung Altbau"
-    image : "images/portfolio/9268300003-2_Ansicht V.jpg"
-    project_url : "/images/portfolio/9268300003-2_Ansicht V.jpg"
-    categories: ["Grundrisse"]
-
   - title : "Fassadenrenovierung Altbau"
     image : "images/portfolio/9268300003-2_Ansicht05.jpg"
     project_url : "/images/portfolio/9268300003-2_Ansicht05.jpg"
@@ -96,8 +136,9 @@ item:
     categories: ["Grundrisse"]
 
 
+
 # client logo slider
 clients_logo_slider:
   enable : false
-  title : "Unsere Kunden"
+  title : "Unsere Partner"
   # clients logo comes from 'data/homepage.yml' file

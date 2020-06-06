@@ -53,7 +53,11 @@
     </div>
   </div>
   <div class="border-top text-center border-secondary py-5">
-    <p class="mb-0 text-light">{{ .Site.Params.copyright | markdownify }}</p>
+    <p class="mb-0 text-white">
+      <span class="text-light px-2">{{ .Site.Params.copyright | markdownify }}</span> | 
+      <a class="text-light px-2" href="{{ref . .Site.Params.legal1}}">{{.Site.Params.legal1}}</a> | 
+      <a class="text-light px-2" href="{{ref . .Site.Params.legal2}}">{{.Site.Params.legal2}}</a>
+    </p>
   </div>
 </footer>
 <!-- /footer -->

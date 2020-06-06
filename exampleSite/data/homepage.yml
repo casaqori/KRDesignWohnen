@@ -5,8 +5,8 @@ banner:
 # about
 about:
   enable : true
-  content : "Die K & R Design und Wohnen GmbH steht für Haus- und Wohnungsbau&shy;dienstleister mit höchstem Anspruch. Unsere Kunden erhalten alle Leistungen um ihr Traumhaus sowie ihre geliebte Wohnung mit uns zu bauen aus einer Hand. 
-<br/><br/>WIR zeigen Ihnen mit unseren langjährigen Erfahrungen und Referenzen, die verschiedenen Möglichkeiten in allen Baubereichen, ob klassische oder moderne Architektur, oder hochwertiges Baumaterial.</p>"
+  content : "Die K & R Design und Wohnen GmbH steht für Haus- und Wohnungsbau&shy;dienstleister mit höchstem Anspruch. Unsere Kunden erhalten alle Leistungen um ihr Traumhaus sowie ihre neue Wohnung mit uns zu bauen. 
+<br/><br/>WIR bieten Ihnen mit unseren langjährigen Erfahrungen und Referenzen die verschiedenen Möglichkeiten der Architektursprache, ob klassisch oder moderne, sowie individuelle Grundrisslösungen.</p>"
   button:
     enable : false
     label : "Über Uns"
@@ -78,7 +78,7 @@ education:
 service:
   enable : true
   title : "Dienst&shy;leistungen"
-  content : "Unser Konzept fundiert auf der Idee mit Ihnen Ihr Traumhaus zu bauen und planen. Bei der Auswahl unserer Immobilienprojekte berücksichtigen wir die individuelle Ausgestaltung nach Ihren persönliche Vorlieben. Ihre Vorstellungen über den Baustil, die Bauart, das Material usw. möchten wir gern realisieren. Sie bekommen damit alle Leistungen aus nur einer Hand: Planen, Designen und Bauen"
+  content : "Unser Konzept fundiert auf der Idee mit Ihnen Ihr Traumhaus zu planen und zu bauen. Bei der Auswahl unserer Immobilienprojekte berücksichtigen wir die individuelle Gestaltung nach Ihren persönlichen Wünschen. Ihre Vorstellungen über den Baustil, die Bauart, das Material werden wir realisieren. Sie bekommen damit alle Leistungen aus einer Hand: Planen, Designen und Bauen"
   item:
     - title : "Planung"
       icon : "ti-agenda"
@@ -92,15 +92,7 @@ service:
 
     - title : "Bauausführung"
       icon : "ti-hummer"
-      content : "Die Ausführung der Bauvorhaben erfolgt mit fachfremden, welche seit Jahren mit uns zusammenarbeiten. *Wie zum Beispiel*
-
-
--  Bau Riedel Dresden GmbH
-
--  Kuba Dach- und Holzbau
-
--  NL Bau GmbH
-"
+      content : "Die Ausführung der Bauvorhaben erfolgt mit Fachfirmen, welche seit Jahren mit uns zusammenarbeiten.<br/>Bei der Auswahl der Firmen legen wir Wert auf regionale Partner."
       highlighted : false
 
 # portfolio
@@ -108,7 +100,12 @@ portfolio:
   enable : true
   title : "Referenzen"
   item_show : 3
+  item_filter : "Neubau"
   # portfolio item comes from 'data/portfolio.yml' item.
+  button:
+    enable : true
+    label : "Alle Ansehen"
+    URL : "portfolio"
 
 # testimonial
 testimonial:
@@ -130,10 +127,16 @@ testimonial:
       designation : "CEO, Funder"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
+# blog
+blog:
+  enable : true
+  title : "Aktuelle Projekte"
+  # blog post comes from "content/blog" folder
+
 # client logo slider
 clients_logo_slider:
-  enable : false
-  title : "Unsere Kunden"
+  enable : true
+  title : "Unsere Partner"
   item:
     - logo : "images/clients-logo/client-logo-1.png"
       URL : "http://examplesite.com"
@@ -164,9 +167,3 @@ clients_logo_slider:
       
     - logo : "images/clients-logo/client-logo-5.png"
       URL : "#"
-
-# blog
-blog:
-  enable : true
-  title : "Aktuelle Projekte"
-  # blog post comes from "content/blog" folder

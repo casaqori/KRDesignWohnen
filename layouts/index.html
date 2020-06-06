@@ -1,7 +1,7 @@
 {{ define "main" }}
 
   <!-- hero area -->
-  <section class="hero-area banner bg-primary overflow-hidden" id="parallax">
+  <section class="hero-area banner bg-primary overflow-hidden"><!-- id="parallax" --> 
      <!--
     <div class="container">
       <div class="row">
@@ -194,18 +194,29 @@
 
   {{ if .Site.Data.homepage.portfolio.enable }}
   <!-- portfolio -->
+  {{ with .Site.Data.homepage.portfolio }}
   <section class="section bg-light" data-background="{{`images/backgrounds/education-bg.png`|relURL}}">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h2 class="section-title">{{ .Site.Data.homepage.portfolio.title | markdownify }}</h2>
+          <h2 class="section-title">{{ .title | markdownify }}</h2>
+
+          {{ partial "portfolio-slider.html" . }}
+
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .URL | absURL }}" class="btn btn-transparent mt-4">{{.label}}</a>
+          {{ end }}
+          {{ end }}
         </div>
       </div>
-      {{ partial "portfolio-slider.html" . }}
-      <!--
+      
+      {{/*
       <div class="row shuffle-wrapper">
-        {{ $item:= .Site.Data.homepage.portfolio.item_show }}
+        {{ $item:= .item_show }}
+        {{ $itemFilter:= .item_filter }}
         {{ range first $item .Site.Data.portfolio.item }}
+        {{ if in .categories $itemFilter}}
         <div class="col-lg-4 col-6 mb-4 shuffle-item">
           <div class="position-relative rounded hover-wrapper">
             <img src="{{.image | absURL }}" title="{{.title}}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
@@ -219,11 +230,13 @@
           </div>
         </div>
         {{ end }}
+        {{ end }}
       </div>
-      -->
+      */}}
     </div>
   </section>
   <!-- /portfolio -->
+  {{ end }}
   {{ end }}
 
 
@@ -265,16 +278,6 @@
   {{ end }}
 
 
-  {{ if .Site.Data.homepage.clients_logo_slider.enable }}
-  <!-- client logo slider -->
-  <section class="section pb-0">
-    <div class="container">
-      {{ partial "client-slider.html" . }}
-    </div>
-  </section>
-  <!-- /client logo slider -->
-  {{ end }}
-
   {{ if .Site.Data.homepage.blog.enable }}
   <!-- blog -->
   <section class="section">
@@ -283,7 +286,7 @@
         <div class="col-12 text-center">
           <h2 class="section-title">{{.Site.Data.homepage.blog.title | markdownify }}</h2>
         </div>
-        {{ range first 3 .Site.RegularPages }}
+        {{ range first 3 (where .Site.RegularPages "Type" "blog") }}
         {{ .Render "post" }}
         {{ end }}
       </div>
@@ -292,32 +295,19 @@
   <!-- /blog -->
   {{ end }}
 
-  <!-- team -->
-  {{ if .Site.Data.about.team.enable }}
-  {{ with .Site.Data.about.team }}
-  <section class="section bg-cover" data-background="{{`images/backgrounds/bg-dots.png`|relURL}}">
+  {{ if .Site.Data.homepage.clients_logo_slider.enable }}
+  <!-- client logo slider -->
+  <section class="section bg-light" data-background="{{`images/backgrounds/bg-dots.png`|relURL}}">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          <h2 class="section-title">{{ .Site.Data.homepage.clients_logo_slider.title | markdownify }}</h2>
         </div>
-        {{ range .team_member }}
-        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-          <div class="card text-center">
-            <img src="{{ .image | absURL }}" class="card-img-top">
-            <div class="card-body">
-              <h4 class="card-title">{{.title | safeHTML }}</h4>
-              <p class="text-light font-secondary">{{.designation | safeHTML }}</p>
-            </div>
-          </div>
-        </div>
-        {{ end }}
       </div>
+      {{ partial "client-slider.html" . }}
     </div>
   </section>
-  {{ end }}
-  {{ end }}
-  <!-- /team -->
-
+  <!-- /client logo slider -->
+{{ end }}
 
 {{ end }}
