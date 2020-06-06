@@ -10,10 +10,10 @@ sections:
 - type: heading
   label: Projekte
 - type: document
-  path: exampleSite/content/blog/_index.md
+  path: exampleSite/content/bauprojekt/_index.md
   label: Projektseite
 - type: directory
-  path: exampleSite/content/blog
+  path: exampleSite/content/bauprojekt
   label: Projekt
   create: documents
   match: "*"
@@ -23,15 +23,15 @@ sections:
 - type: heading
   label: Referenzen
 - type: document
-  path: exampleSite/content/portfolio/_index.md
+  path: exampleSite/content/referenzen/_index.md
   label: Referenzseite
 - type: document
   path: exampleSite/data/portfolio.yml
   label: Referenz Daten
 - type: heading
-  label: About
+  label: Über Uns
 - type: document
-  path: exampleSite/content/about/_index.md
+  path: exampleSite/content/ueber-uns/_index.md
   label: Über Uns Seite
 - type: document
   path: exampleSite/data/about.yml
@@ -39,13 +39,8 @@ sections:
 - type: heading
   label: Weitere Seiten
 - type: directory
-  path: exampleSite/content/contact
-  label: Kontakt
-  create: none
-  match: "*"
-- type: directory
-  path: exampleSite/content/legal
-  label: Impressum
+  path: exampleSite/content/kontakt
+  label: Kontakt, Impressum, Datenschutz
   create: none
   match: "*"
 - type: heading

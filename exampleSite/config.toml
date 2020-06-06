@@ -5,6 +5,9 @@ summaryLength = "10"
 theme = "KRDesignWohnen"
 title = "K & R Design und Wohnen GmbH"
 
+[permalinks]
+  blog = "/:slug/"
+
 # css plugins
 [[params.plugins.css]]
 URL = "plugins/bootstrap/bootstrap.min.css"
@@ -28,27 +31,27 @@ URL = "plugins/shuffle/shuffle.min.js"
 # menu
 [menu]
 #[[menu.main]]
-#URL = "about"
+#URL = "ueber-uns"
 #name = "Über Uns"
 #weight = 1
 
 [[menu.main]]
-URL = "blog"
+URL = "bauprojekt"
 name = "Projekte"
 weight = 2
 
 [[menu.main]]
-URL = "portfolio"
+URL = "referenzen"
 name = "Referenzen"
 weight = 3
 
 #[[menu.main]]
-#URL = "contact"
+#URL = "kontakt"
 #name = "Kontakt"
 #weight = 4
 
 [[menu.main]]
-URL = "legal/impressum"
+URL = "kontakt/impressum"
 name = "Impressum"
 weight = 5
 
@@ -90,8 +93,8 @@ description = "This is meta description"
 google_analytics_id = "" # Your ID
 # copyright
 copyright = "Copyright &copy; 2020"
-legal1 = "Impressum"
-legal2 = "Datenschutz"
+legalInformation = "Impressum"
+privacyPolicy = "Datenschutz"
 
 
 # contact

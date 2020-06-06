@@ -1,9 +1,11 @@
 ---
 title: "Über Uns"
-description: "This is meta description."
+description: "Das sind Wir: K & R Design und Wohnen GmbH"
 author_image : "images/about/author.jpg"
 author_signature : "images/about/signature.png"
 draft: true
+cascade:
+  type: "about"
 ---
 
 Die K & R Design und Wohnen GmbH versteht sich als Haus- und Wohnungsbaudienstleister mit höchstem Anspruch. Unsere Kunden

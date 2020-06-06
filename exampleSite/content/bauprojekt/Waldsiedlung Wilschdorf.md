@@ -1,5 +1,6 @@
 ---
 title: "Bauprojekt Waldsiedlung Wilschdorf"
+slug: "waldsiedlung"
 date: 2019-05-14T11:14:34+06:00
 image: "images/blog/Wilschdorf/Wilschdorf-Waldsiedlung-Landkarte.jpg"
 imageStretch: false

@@ -105,7 +105,7 @@ portfolio:
   button:
     enable : true
     label : "Alle Ansehen"
-    URL : "portfolio"
+    URL : "referenzen"
 
 # testimonial
 testimonial:

@@ -1,6 +1,6 @@
 ---
 title: "Impressum"
-description: "This is meta description."
+description: "Impressum der K & R Design und Wohnen GmbH"
 draft: false
 ---
 
