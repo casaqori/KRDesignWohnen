@@ -62,6 +62,14 @@ h1,
   }
 }
 
+@media(max-width:577px) {
+
+  h1,
+  .h1 {
+    font-size: 40px
+  }
+}
+
 h2,
 .h2 {
   font-size: 60px
@@ -589,12 +597,12 @@ textarea.form-control {
 .banner {
   background-image: linear-gradient(45deg, #0d0e0fa6, rgba(82, 62, 40, 0.85)), url("../images/illustrations/page-title-bg.jpg");
   background-position-y: center, 0px;
-  background-size: auto, cover;
+  background-size: auto, auto;
   background-attachment: fixed, fixed;
   background-repeat: repeat, no-repeat;
   position: relative;
-  min-height: 70vh;
-  height: 45em;
+  min-height: 80vmin;
+  height: 100%;
 }
 
 .hero-area h1 {
@@ -614,9 +622,19 @@ textarea.form-control {
     overflow: hidden
   }
 
-  .hero-area.banner {
-    min-height: 40vh;
-    height: 35em;
+  .page-title {
+    padding: 150px 0 80px !important;
+  }
+}
+
+@media(max-width:577px) {
+
+  .hero-area {
+    padding: 150px 0 150px;
+  }
+
+  .banner {
+    background-size: auto, cover;
   }
 }
 
