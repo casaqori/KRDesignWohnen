@@ -277,6 +277,10 @@ img {
   border: 0
 }
 
+a {
+  color: var(--dark-color)
+}
+
 a,
 a:hover,
 a:focus {

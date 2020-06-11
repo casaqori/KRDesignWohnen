@@ -83,12 +83,13 @@ theme_darkcolor = "#222"
 #theme_darkcolor = "#212529"
 
 # contact info
-phone = "<a class='text-white' href='tel:+491723516360'>Uwe Riedel: 0172 351 6360</a><br/><a class='text-white' href='tel:+4915255375489'>Maik Kotas: 01525 537 5489</a>"
+contact1 = "<a class='text-white' href='tel:+491723516360'>Uwe Riedel: 0172 351 6360</a><br/><span>Projektentwicklung / Baukoordinierung / Bauausführung</span>"
+contact2 = "<a class='text-white' href='tel:+4915255375489'>Maik Kotas: 01525 537 5489</a><br/><span>Asset Management / Vermarktung</span>"
 email = "info@krdesign-wohnen.de"
-address = "Körnerplatz 1<br/>01326 Dresden"
+address = "Körnerplatz 1<br/>01326 Dresden<br/><br/>Projektbüro:<br/>Rähnitzgasse 13<br/>01097 Dresden"
 # meta description
 author = "Uwe Riedel"
-description = "This is meta description"
+description = "Grundstückserwerb und Bau-Dienstleistungen aus einer Hand - Wir realisieren das Eigenheim nach Ihren Vorstellungen."
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright

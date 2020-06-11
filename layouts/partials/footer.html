@@ -37,13 +37,11 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <h5 class="text-light">Email</h5>
+        <div class="col-md-8">
+          <h5 class="text-light">Kontakt</h5>
           <p class="text-white paragraph-lg font-secondary"><a class="text-white" href="mailto:{{.Site.Params.email}}">{{.Site.Params.email | safeHTML}}</a></p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Telefon</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.phone | safeHTML}}</p>
+          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.contact1 | safeHTML}}</p>
+          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.contact2 | safeHTML}}</p>
         </div>
         <div class="col-md-4">
           <h5 class="text-light">Addresse</h5>

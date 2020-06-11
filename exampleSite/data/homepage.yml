@@ -53,26 +53,26 @@ experience:
       company : "THEMEFISHER"
       duration : "Sep 2014 - Present"
 
-# education
-education:
-  enable : false
-  title : "Dienst&shy;leistungen"
+# partner
+partner:
+  enable : true
+  title : "Wir und Unsere Partner"
   item:
-    - title : "Planung"
-      year : ""
-      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "K + R Team"
+      icon : "ti-user"
+      academy : "__Uwe Riedel__<br/>*Projektentwicklung / Baukoordinierung / Bauausführung*<br/>__Maik Kotas__<br/>*Asset Management / Vermarktung*"
       
-    - title : "Außen- und Innenarchitektur"
-      year : ""
-      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Architekten"
+      icon : "ti-ruler-alt-2"
+      academy : "Uwe Seidel<br/>Hubert Zahn<br/>[Tonn Architekten](tonn-architekten.de/)"
       
-    - title : "Bauausführung"
-      year : ""
-      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Statiker"
+      icon : "ti-ruler"
+      academy : "[Uwe Jeschke](www.ib-jeschke.de)<br/>[Udo Gildemeister](www.gildebau.de)"
 
-    - title : "Gartenbau"
-      year : ""
-      academy : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Baufirmen"
+      icon : "ti-hummer"
+      academy : "[Bau Riedel Dresden GmbH](www.bau-riedel-dresden.de)<br/>NL Bau Meissen<br/>[Kube Holzbau](www.kube-holzbau.de)"
 
 # service
 service:
@@ -135,7 +135,7 @@ blog:
 
 # client logo slider
 clients_logo_slider:
-  enable : true
+  enable : false
   title : "Unsere Partner"
   item:
     - logo : "images/clients-logo/client-logo-1.png"
