@@ -60,7 +60,7 @@ partner:
   item:
     - title : "K + R Team"
       icon : "ti-user"
-      content : "__Uwe Riedel__<br/>*Projektentwicklung / Baukoordinierung / Bauausführung*<br/>__Maik Kotas__<br/>*Asset Management / Vermarktung*"
+      content : "__Uwe Riedel__ <br/>*Projektentwicklung / Baukoordinierung / Bauausführung*<br/> __Maik Kotas__ <br/>*Asset Management / Vermarktung*"
       
     - title : "Architekten"
       icon : "ti-ruler-alt-2"
