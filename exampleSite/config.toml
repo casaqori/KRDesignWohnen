@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "https://krdesign-wohnen.yotequiero.de"
+baseURL = "https://www.krdesign-wohnen.de"
 languageCode = "de-DE"
 summaryLength = "10"
 theme = "KRDesignWohnen"

@@ -654,56 +654,6 @@ textarea.form-control {
   }
 }
 
-.layer {
-  position: absolute;
-  z-index: 1
-}
-
-#l1 {
-  bottom: 0;
-  left: 0
-}
-
-#l2 {
-  top: 190px;
-  left: -250px
-}
-
-#l3 {
-  top: 200px;
-  left: 40%
-}
-
-#l4 {
-  top: 200px;
-  right: 40%
-}
-
-#l5 {
-  top: 100px;
-  right: -150px
-}
-
-#l6 {
-  bottom: -20px;
-  left: 10%
-}
-
-#l7 {
-  bottom: 100px;
-  left: 20%
-}
-
-#l8 {
-  bottom: 160px;
-  right: 45%
-}
-
-#l9 {
-  bottom: 100px;
-  right: -10px
-}
-
 .layer-bg {
   position: absolute;
   bottom: 0;
@@ -847,36 +797,6 @@ textarea.form-control {
   transform: translate(-50%, -50%)
 }
 
-.testimonial-bg-shapes .bg-shape-1 {
-  position: absolute;
-  left: 100px;
-  top: -50px
-}
-
-.testimonial-bg-shapes .bg-shape-2 {
-  position: absolute;
-  right: 150px;
-  top: 50px
-}
-
-.testimonial-bg-shapes .bg-shape-3 {
-  position: absolute;
-  right: 50px;
-  top: 200px
-}
-
-.testimonial-bg-shapes .bg-shape-4 {
-  position: absolute;
-  left: 100px;
-  bottom: 200px
-}
-
-.testimonial-bg-shapes .bg-shape-5 {
-  position: absolute;
-  right: 200px;
-  bottom: -50px
-}
-
 .footer-section {
   /*only with contact form*/
   /*padding-top: 200px*/
@@ -966,42 +886,11 @@ blockquote {
   z-index: 1
 }
 
-.page-title-alt .bg-shape-1 {
+.page-title-alt .bg-shape {
   position: absolute;
   left: 0;
   top: 0;
   height: 100%
-}
-
-.page-title-alt .bg-shape-2 {
-  position: absolute;
-  left: 70px;
-  top: 100px
-}
-
-.page-title-alt .bg-shape-3 {
-  position: absolute;
-  left: 30%;
-  top: 50px;
-  transform: rotate(180deg)
-}
-
-.page-title-alt .bg-shape-4 {
-  position: absolute;
-  left: 100px;
-  bottom: 100px
-}
-
-.page-title-alt .bg-shape-5 {
-  position: absolute;
-  left: 40%;
-  bottom: -25px
-}
-
-.page-title-alt .bg-shape-6 {
-  position: absolute;
-  bottom: 100px;
-  right: -100px
 }
 
 .page-title-min {
@@ -1017,48 +906,11 @@ blockquote {
   z-index: 1
 }
 
-.page-title .bg-shape-1 {
+.page-title .bg-shape {
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%
-}
-
-.page-title .bg-shape-2 {
-  position: absolute;
-  left: -20px;
-  top: -10px
-}
-
-.page-title .bg-shape-3 {
-  position: absolute;
-  left: 10%;
-  top: 100px
-}
-
-.page-title .bg-shape-4 {
-  position: absolute;
-  left: 50%;
-  top: -20px
-}
-
-.page-title .bg-shape-5 {
-  position: absolute;
-  left: 90px;
-  bottom: -50px;
-  transform: rotate(180deg)
-}
-
-.page-title .bg-shape-6 {
-  position: absolute;
-  right: 20%;
-  bottom: -20px
-}
-
-.page-title .bg-shape-7 {
-  position: absolute;
-  right: -220px;
-  bottom: -100px
 }
 
 .filter-controls li {
