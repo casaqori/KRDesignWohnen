@@ -66,7 +66,7 @@
           <p class="font-secondary lead">{{.content | markdownify}}</p>
           {{ if .button.enable }}
           {{ with .button }}
-          <a href="{{ .URL | absURL }}" class="btn btn-transparent">{{.label}}</a>
+          <a href="{{ ref $.Site.Home .URL }}" class="btn btn-transparent">{{.label}}</a>
           {{ end }}
           {{ end }}
           {{ end }}
@@ -173,7 +173,7 @@
 
           {{ if .button.enable }}
           {{ with .button }}
-          <a href="{{ .URL | absURL }}" class="btn btn-transparent mt-4">{{.label}}</a>
+          <a href="{{ ref $.Site.Home .URL }}" class="btn btn-transparent mt-4">{{.label}}</a>
           {{ end }}
           {{ end }}
         </div>
@@ -296,7 +296,7 @@
             </div>
             <div>
               <h4>{{ .title  | markdownify }}</h4>
-              <p class="mb-0 text-dark">{{.academy | markdownify}}</p>
+              <p class="mb-0 text-dark">{{ .content | markdownify }}</p>
             </div>
           </div>
         </div>

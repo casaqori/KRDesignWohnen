@@ -36,4 +36,4 @@ Fotomaterial welches abweichender Urheberschaft unterliegt, wird gesondert geken
 
 Wir übernehmen keine Haftung für Inhalte externer Links.
 
-Beachten Sie weiterführend unsere [Datenschutzbestimmungen]({{< relref "datenschutz.md" >}}).
+Beachten Sie weiterführend unsere [Datenschutzbestimmungen]({{< relref "datenschutz" >}}).

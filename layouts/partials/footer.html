@@ -53,8 +53,8 @@
   <div class="border-top text-center border-secondary py-5">
     <p class="mb-0 text-white">
       <span class="text-light px-2">{{ .Site.Params.copyright | markdownify }}</span> | 
-      <a class="text-light px-2" href="{{ref . .Site.Params.legalInformation}}">{{.Site.Params.legalInformation}}</a> | 
-      <a class="text-light px-2" href="{{ref . .Site.Params.privacyPolicy}}">{{.Site.Params.privacyPolicy}}</a>
+      <a class="text-light px-2" href="{{ref . .Site.Params.legalInformation }}">{{.Site.Params.legalInformation | markdownify}}</a> | 
+      <a class="text-light px-2" href="{{ref . .Site.Params.privacyPolicy}}">{{.Site.Params.privacyPolicy | markdownify}}</a>
     </p>
   </div>
 </footer>

@@ -60,19 +60,19 @@ partner:
   item:
     - title : "K + R Team"
       icon : "ti-user"
-      academy : "__Uwe Riedel__<br/>*Projektentwicklung / Baukoordinierung / Bauausführung*<br/>__Maik Kotas__<br/>*Asset Management / Vermarktung*"
+      content : "__Uwe Riedel__<br/>*Projektentwicklung / Baukoordinierung / Bauausführung*<br/>__Maik Kotas__<br/>*Asset Management / Vermarktung*"
       
     - title : "Architekten"
       icon : "ti-ruler-alt-2"
-      academy : "Uwe Seidel<br/>Hubert Zahn<br/>[Tonn Architekten](tonn-architekten.de/)"
+      content : "Uwe Seidel<br/>Hubert Zahn<br/>[Tonn Architekten](http://tonn-architekten.de/)"
       
     - title : "Statiker"
       icon : "ti-ruler"
-      academy : "[Uwe Jeschke](www.ib-jeschke.de)<br/>[Udo Gildemeister](www.gildebau.de)"
+      content : "[Uwe Jeschke](http://www.ib-jeschke.de)<br/>[Udo Gildemeister](http://www.gildebau.de)"
 
     - title : "Baufirmen"
       icon : "ti-hummer"
-      academy : "[Bau Riedel Dresden GmbH](www.bau-riedel-dresden.de)<br/>NL Bau Meissen<br/>[Kube Holzbau](www.kube-holzbau.de)"
+      content : "[Bau Riedel Dresden GmbH](http://www.bau-riedel-dresden.de)<br/>NL Bau Meissen<br/>[Kube Holzbau](http://www.kube-holzbau.de)"
 
 # service
 service:

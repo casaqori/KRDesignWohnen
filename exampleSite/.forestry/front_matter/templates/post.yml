@@ -8,6 +8,9 @@ fields:
   label: Titel
   config:
     required: true
+- type: text
+  name: slug
+  label: Url Name
 - type: datetime
   name: date
   label: Begin-Datum
@@ -17,6 +20,9 @@ fields:
 - type: boolean
   name: imageStretch
   label: Vollbild?
+- type: boolean
+  name: imageHide
+  label: Verstecken?
 - type: text
   name: description
   label: Kurzinhalt
