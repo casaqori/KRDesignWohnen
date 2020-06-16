@@ -2,8 +2,8 @@
 baseURL = "https://www.krdesign-wohnen.de"
 languageCode = "de-DE"
 summaryLength = "10"
-theme = "KRDesignWohnen"
-themesDir = "../.."
+theme = ""
+themesDir = "../"
 title = "K & R Design und Wohnen GmbH"
 disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "RSS"]
 
