@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "https://www.krdesign-wohnen.de"
+baseURL = "/"
 languageCode = "de-DE"
 summaryLength = "10"
 theme = ""
