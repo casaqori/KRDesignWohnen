@@ -15,11 +15,15 @@
       <div class="modal-body">
         <!-- Carousel markup goes in the modal body -->
 
-        <div id="referenzDetails" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div id="referenzDetails" class="carousel slide lazy" data-ride="carousel" data-interval="false">
           <div class="carousel-inner">
+            <!-- first item is a dummy -->
+            <div class="carousel-item active">
+              <div style="height: 66vh;"></div>
+            </div>
             {{ range $item_index, $item := .Site.Data.portfolio.item }}
-            <div class="carousel-item {{if eq $item_index 0}}active{{end}}">
-              <img class="d-block w-100" src="{{ $item.project_url | safeURL }}" alt="portfolio-image">
+            <div class="carousel-item">
+              <img class="d-block w-100" data-src="{{ $item.project_url | safeURL }}" alt="portfolio-image">
               <div class="carousel-caption"> <!-- hide small: d-none d-md-block -->
                 <h5>{{$item.title}}</h5>
               </div>
@@ -70,7 +74,7 @@
     </div>
     <div class="row shuffle-wrapper" data-toggle="modal" data-target="#exampleModal">
       {{ range $item_index, $item := .Site.Data.portfolio.item }}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{{range $index, $element:= $item.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]" data-target="#referenzDetails" data-slide-to="{{$item_index}}">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{{range $index, $element:= $item.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]" data-target="#referenzDetails" data-slide-to="{{add $item_index 1}}">
         <div class="position-relative rounded hover-wrapper">
           <img src="{{$item.image | absURL }}" title="{{$item.title}}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           {{ if and ( ne .project_url "" ) ( ne .project_url "#" ) }}
