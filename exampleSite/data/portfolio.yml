@@ -1,140 +1,154 @@
 # portfolio item
 item:
-  - title : "Bauprojekt mit 6 Eigentumswohnungen in Coswig, Kastanienstraße 8"
-    image : "images/portfolio/Neubau.jpg"
-    project_url : "/images/portfolio/Neubau.jpg"
+  - title : "Stadtresidence mit 6 Eigentumswohnungen, Neoklassizistischer Baustil, Baujahr 2020 in Coswig, Kastanienstraße 8"
+    image : "images/portfolio/Neubau-Coswig.jpg"
+    project_url : "/images/portfolio/Neubau-Coswig.jpg"
     categories: ["Neubau"]
-      
-  - title : "Bauprojekt Coswig mit 6 Eigentumswohnungen, Kastanienstraße 8"
-    image : "images/portfolio/Neubau-Architektur.jpg"
-    project_url : "/images/portfolio/Neubau-Architektur.jpg"
-    categories: ["Architektur"]
 
-  - title : "Bauprojekt Coswig mit 6 Eigentumswohnungen, Kastanienstraße 8"
-    image : "images/portfolio/Neubau-Architektur2.jpg"
-    project_url : "/images/portfolio/Neubau-Architektur2.jpg"
-    categories: ["Architektur"]
-
-  - title : "Sanierungsloft \"Green Village\" in ehemaligen Fabrikgebäude, Seifhennersdorfer Straße 16 in Dresden"
+  - title : "Sanierungsloft \"Green Village\" in ehemaligen Fabrikgebäude, Baujahr 2019 in Dresden-Neustadt, Seifhennersdorfer Straße 16"
     image : "images/portfolio/GreenVillage_Ensemble.jpg"
-    project_url : "/images/portfolio/GreenVillage_Ensemble.jpg"
+    project_url : "/images/portfolio/GreenVillage_Ensemble_voll.jpg"
     categories: ["Neubau"]
 
-  - title : "Sanierungsloft \"Green Village\" mit 5 Eigentums-Luxus-Wohnungen, Seifhennersdorfer Straße 16 in Dresden"
+  - title : "Sanierungsloft \"Green Village\" mit 5 Eigentums-Luxus-Wohnungen, Baujahr 2019 in Dresden-Neustadt, Seifhennersdorfer Straße 16"
     image : "images/portfolio/GreenVillage_Stadthaus.jpg"
     project_url : "/images/portfolio/GreenVillage_Stadthaus.jpg"
     categories: ["Neubau", "Renovierung"]
 
   - title : "Sanierungsloft \"Green Village\" mit 5 Eigentums-Luxus-Wohnungen, Seifhennersdorfer Straße 16 in Dresden"
     image : "images/portfolio/GreenVillage_Stadthaus_Architektur1.jpg"
-    project_url : "/images/portfolio/GreenVillage_Stadthaus_Architektur1.jpg"
+    project_url : "/images/portfolio/GreenVillage_Stadthaus_Architektur1_voll.jpg"
     categories: ["Architektur"]
 
-  - title : "Loft mit 4 Raum Luxus-Wohnungen - \"Green Village\" Erdgeschoss, Seifhennersdorfer Straße 16 in Dresden"
+  - title : ""
     image : "images/portfolio/GreenVillage_Stadthaus_Grundriss1.jpg"
-    project_url : "/images/portfolio/GreenVillage_Stadthaus_Grundriss1.jpg"
+    project_url : "/images/portfolio/GreenVillage_Stadthaus_Grundriss1_voll.jpg"
     categories: ["Grundrisse"]
 
-  - title : "Loft mit 5 Raum Luxus Wohnunge - \"Green Village\" 1. Obergeschoss, Seifhennersdorfer Straße 16 in Dresden"
+  - title : ""
     image : "images/portfolio/GreenVillage_Stadthaus_Grundriss2.jpg"
-    project_url : "/images/portfolio/GreenVillage_Stadthaus_Grundriss2.jpg"
+    project_url : "/images/portfolio/GreenVillage_Stadthaus_Grundriss2_voll.jpg"
     categories: ["Grundrisse"]
 
-  - title : "Sanierung Villa, Ansicht Straßenseite, August-Bebel-Str. 23 in Dresden"
-    image : "images/portfolio/Villa-ABebelDD-Architektur1.jpg"
-    project_url : "/images/portfolio/Villa-ABebelDD-Architektur1.jpg"
+  - title : "Stadtresidence mit 6 Eigentumswohnungen, Neoklassizistischer Baustil, Kastanienstraße 8 in Coswig"
+    image : "images/portfolio/Neubau-Architektur-Coswig.jpg"
+    project_url : "/images/portfolio/Neubau-Architektur-Coswig_voll.jpg"
     categories: ["Architektur"]
 
-  - title : "Sanierung Villa, Ansicht Hofseite, August-Bebel-Str. 23 in Dresden"
-    image : "images/portfolio/Villa-ABebelDD-Architektur2.jpg"
-    project_url : "/images/portfolio/Villa-ABebelDD-Architektur2.jpg"
+  - title : "Stadtresidence mit 6 Eigentumswohnungen, Neoklassizistischer Baustil, Kastanienstraße 8 in Coswig"
+    image : "images/portfolio/Neubau-Architektur-Coswig2.jpg"
+    project_url : "/images/portfolio/Neubau-Architektur-Coswig2_voll.jpg"
     categories: ["Architektur"]
 
-  - title : "Sanierung Villa, Grundriss Erdgeschoss, August-Bebel-Str. 23 in Dresden"
-    image : "images/portfolio/Villa-ABebelDD-Grundriss1.jpg"
-    project_url : "/images/portfolio/Villa-ABebelDD-Grundriss1.jpg"
-    categories: ["Grundrisse"]
-
-  - title : "Sanierung Villa, Grundriss Dachgeschoss, August-Bebel-Str. 23 in Dresden"
-    image : "images/portfolio/Villa-ABebelDD-Grundriss2.jpg"
-    project_url : "/images/portfolio/Villa-ABebelDD-Grundriss2.jpg"
-    categories: ["Grundrisse"]
-
-  - title : "Sanierung Villa, An der Berglehne 1 in Dresden"
-    image : "images/portfolio/Villa-BerglehneDD-Architektur1.jpg"
-    project_url : "/images/portfolio/Villa-BerglehneDD-Architektur1.jpg"
-    categories: ["Architektur"]  
-
-  - title : "Sanierung Villa, An der Berglehne 1 in Dresden"
-    image : "images/portfolio/Villa-BerglehneDD-Architektur2.jpg"
-    project_url : "/images/portfolio/Villa-BerglehneDD-Architektur2.jpg"
-    categories: ["Architektur"]
-
-  - title : "Sanierung Villa, An der Berglehne 1 in Dresden"
-    image : "images/portfolio/Villa-BerglehneDD-Architektur4.jpg"
-    project_url : "/images/portfolio/Villa-BerglehneDD-Architektur4.jpg"
-    categories: ["Architektur"]
-
-  - title : "Sanierung Villa, An der Berglehne 1 in Dresden"
-    image : "images/portfolio/Villa-BerglehneDD-Grundriss1.jpg"
-    project_url : "/images/portfolio/Villa-BerglehneDD-Grundriss1.jpg"
-    categories: ["Grundrisse"]
-
-  - title : "Bauprojekt Eschdorf, mit vier Einfamilienhäusern"
+  - title : "Bauprojekt Mühle Eschdorf, mit vier Einfamilienhäusern, 2019-2020"
     image : "images/portfolio/Niedermuehle-Ensemble-Eschdorf.jpg"
     project_url : "/images/portfolio/Niedermuehle-Ensemble-Eschdorf.jpg"
     categories: ["Architektur"]
 
-  - title : "Nebengebäude Mühle Eschdorf: Zwei Einfamilienwohnhaus mit Wohnflächen zwischen 140 bis 160 m² und Grundstücksanteilen von 700 bis 1100 m²"
+  - title : "Bauprojekt Mühle Eschdorf, Nebengebäude, zwei Einfamilienhäuser, 2019-2020"
     image : "images/portfolio/Niedermuehle-Nebengebaeude-Eschdorf.jpg"
     project_url : "/images/portfolio/Niedermuehle-Nebengebaeude-Eschdorf_voll.jpg"
     categories: ["Neubau"]
 
-  - title : "Nebengebäude Mühle Eschdorf: Zwei Einfamilienwohnhaus mit Wohnflächen zwischen 140 bis 160 m² und Grundstücksanteilen von 700 bis 1100 m²"
+  - title : "Bauprojekt Mühle Eschdorf, Nebengebäude, zwei Einfamilienhäuser, 2019-2020"
     image : "images/portfolio/Niedermuehle-Nebengebaeude-Eschdorf2.jpg"
-    project_url : "/images/portfolio/Niedermuehle-Nebengebaeude-Eschdorf2.jpg"
+    project_url : "/images/portfolio/Niedermuehle-Nebengebaeude-Eschdorf2_voll.jpg"
     categories: ["Neubau"]
 
-  - title : "Baugebiet Niedermühle Eschdorf, 4 Einfamilienwohnhäuser"
+  - title : "Bauprojekt Mühle Eschdorf, Hauptgebäude, Einfamilienhaus, 2019-2020"
+    image : "images/portfolio/eschdorf-muehle_05_20_2.jpg"
+    project_url : "/images/portfolio/eschdorf-muehle_05_20_2_voll.jpg"
+    categories: ["Neubau"]
+
+  - title : "Bauprojekt Mühle Eschdorf, mit vier Einfamilienhäusern, 2019-2020"
     image : "images/portfolio/Niedermuehle-Eschdorf-Architektur2.jpg"
-    project_url : "/images/portfolio/Niedermuehle-Eschdorf-Architektur2.jpg"
+    project_url : "/images/portfolio/Niedermuehle-Eschdorf-Architektur2_voll.jpg"
     categories: ["Architektur"]
 
-  - title : "Fassadenrenovierung"
-    image : "images/portfolio/referenz_dresden.jpg"
-    project_url : "/images/portfolio/referenz_dresden.jpg"
+  - title : "Komplett-Sanierung Mehrfamilienhaus, Gittersee 2018"
+    image : "images/portfolio/Renovierung-Gittersee-Balkon.jpg"
+    project_url : "/images/portfolio/Renovierung-Gittersee-Balkon_voll.jpg"
     categories: ["Renovierung"]
 
-  - title : "Innenarchitektur für Mehrgenerationenhaus"
+  - title : "Komplett-Sanierung Mehrfamilienhaus, Gittersee 2018"
+    image : "images/portfolio/Renovierung-Gittersee-Strasse.jpg"
+    project_url : "/images/portfolio/Renovierung-Gittersee-Strasse_voll.jpg"
+    categories: ["Renovierung"]
+
+  - title : "Dachgeschoss im Mehrfamilienhaus, Gittersee 2018"
+    image : "images/portfolio/Renovierung-Gittersee-Dachgeschoss.jpg"
+    project_url : "/images/portfolio/Renovierung-Gittersee-Dachgeschoss_voll.jpg"
+    categories: ["Renovierung"]
+
+  - title : "Innenarchitektur des Mehrfamilienhaus, Gittersee 2018"
     image : "images/portfolio/Bad.jpg"
     project_url : "/images/portfolio/Bad_voll.jpg"
     categories: ["Renovierung"]
 
-  - title : "Innenarchitektur für Mehrgenerationenhaus"
-    image : "images/portfolio/Badewanne.jpg"
-    project_url : "/images/portfolio/Badewanne_voll.jpg"
+  - title : "Innenarchitektur des Mehrfamilienhaus, Gittersee 2018"
+    image : "images/portfolio/Renovierung-Gittersee-Kamin.jpg"
+    project_url : "/images/portfolio/Renovierung-Gittersee-Kamin_voll.jpg"
     categories: ["Renovierung"]
-      
-  - title : "Fassadenrenovierung Altbau"
+
+  - title : "Sanierung Villa, Ansicht Straßenseite, August-Bebel-Str. 23 in Dresden"
+    image : "images/portfolio/Villa-ABebelDD-Architektur1.jpg"
+    project_url : "/images/portfolio/Villa-ABebelDD-Architektur1_voll.jpg"
+    categories: ["Architektur"]
+
+  - title : "Sanierung Villa, Ansicht Hofseite, August-Bebel-Str. 23 in Dresden"
+    image : "images/portfolio/Villa-ABebelDD-Architektur2.jpg"
+    project_url : "/images/portfolio/Villa-ABebelDD-Architektur2_voll.jpg"
+    categories: ["Architektur"]
+
+  - title : ""
+    image : "images/portfolio/Villa-ABebelDD-Grundriss1.jpg"
+    project_url : "/images/portfolio/Villa-ABebelDD-Grundriss1_voll.jpg"
+    categories: ["Grundrisse"]
+
+  - title : ""
+    image : "images/portfolio/Villa-ABebelDD-Grundriss2.jpg"
+    project_url : "/images/portfolio/Villa-ABebelDD-Grundriss2_voll.jpg"
+    categories: ["Grundrisse"]
+
+  - title : "Sanierung Villa, An der Berglehne 1 in Dresden"
+    image : "images/portfolio/Villa-BerglehneDD-Architektur1.jpg"
+    project_url : "/images/portfolio/Villa-BerglehneDD-Architektur1_voll.jpg"
+    categories: ["Architektur"]  
+
+  - title : "Sanierung Villa, An der Berglehne 1 in Dresden"
+    image : "images/portfolio/Villa-BerglehneDD-Architektur2.jpg"
+    project_url : "/images/portfolio/Villa-BerglehneDD-Architektur2_voll.jpg"
+    categories: ["Architektur"]
+
+  - title : "Sanierung Villa, An der Berglehne 1 in Dresden"
+    image : "images/portfolio/Villa-BerglehneDD-Architektur4.jpg"
+    project_url : "/images/portfolio/Villa-BerglehneDD-Architektur4_voll.jpg"
+    categories: ["Architektur"]
+
+  - title : ""
+    image : "images/portfolio/Villa-BerglehneDD-Grundriss1.jpg"
+    project_url : "/images/portfolio/Villa-BerglehneDD-Grundriss1_voll.jpg"
+    categories: ["Grundrisse"]
+
+  - title : ""
     image : "images/portfolio/9268300003-1_Ansicht V.jpg"
-    project_url : "/images/portfolio/9268300003-1_Ansicht V.jpg"
+    project_url : "/images/portfolio/9268300003-1_Ansicht V_voll.jpg"
     categories: ["Grundrisse"]
-      
-  - title : "Innenarchitektur für Mehrgenerationenhaus"
+
+  - title : ""
     image : "images/portfolio/9268300003-1_Ansicht02.jpg"
-    project_url : "/images/portfolio/9268300003-1_Ansicht02.jpg"
+    project_url : "/images/portfolio/9268300003-1_Ansicht02_voll.jpg"
     categories: ["Grundrisse"]
 
-  - title : "Fassadenrenovierung Altbau"
+  - title : ""
     image : "images/portfolio/9268300003-2_Ansicht05.jpg"
-    project_url : "/images/portfolio/9268300003-2_Ansicht05.jpg"
+    project_url : "/images/portfolio/9268300003-2_Ansicht05_voll.jpg"
     categories: ["Grundrisse"]
 
-  - title : "Fassadenrenovierung Altbau"
+  - title : ""
     image : "images/portfolio/9268300003-2_Ansicht06.jpg"
-    project_url : "/images/portfolio/9268300003-2_Ansicht06.jpg"
+    project_url : "/images/portfolio/9268300003-2_Ansicht06_voll.jpg"
     categories: ["Grundrisse"]
-
 
 
 # client logo slider

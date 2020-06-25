@@ -4,9 +4,14 @@
   {{ range site.Data.portfolio.item }}
   {{ if in .categories $itemFilter }}
   {{ if and ( ne .project_url "" ) ( ne .project_url "#" ) }}
-  <a href="{{ .project_url | safeURL }}" class="text-center d-block outline-0 px-3"><img class="d-unset img-fluid rounded w-100" src="{{.image | absURL}}" title="{{.title}}" alt="portfolio-image"></a>
+  <a href="{{ .project_url | safeURL }}" class="text-center d-block outline-0 px-3">
+    <img class="d-unset img-fluid rounded w-100 mb-4" src="{{.image | absURL}}" title="{{.title}}" alt="portfolio-image">
+    <p class="mb-0">{{substr (.title | safeHTML) 0 75}} ...</p>
+  </a>
   {{ else }}
-  <span class="text-center d-block outline-0 px-3"><img class="d-unset img-fluid rounded w-100" src="{{.image | absURL}}" title="{{.title}}" alt="portfolio-image"></span>
+  <span class="text-center d-block outline-0 px-3">
+    <img class="d-unset img-fluid rounded w-100" src="{{.image | absURL}}" title="{{.title}}" alt="portfolio-image">
+  </span>
   {{ end }}
   {{ end }}
   {{ end }}

@@ -67,7 +67,7 @@ Mit Ihren ausgewählten Baustoffen und den Vorstellungen, die Sie über die Arch
 
 - helle und großzügige Wohneinheiten mit Ihren Architekturvorstellungen
 
-- Baubeschreibung nach Ihren Wünschen
+- individuelle Ausstattungskonzepte
 
 </div>
 </div>

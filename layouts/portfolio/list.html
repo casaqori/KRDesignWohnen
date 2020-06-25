@@ -2,13 +2,56 @@
 
 {{ partial "page-title.html" . }}
 
+{{/* https://codepen.io/diegovogel/pen/bzddLv */}}
+<div class="modal fade" id="exampleModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-xl modal-dialog-centered" role="document">
+    <div class="modal-content border-secondary">
+      <div class="modal-header bg-secondary border-secondary">
+        <h5 class="modal-title text-white" id="exampleModalLabel">Referenzen</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Schließen">
+          <span aria-hidden="true" class="text-white">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Carousel markup goes in the modal body -->
+
+        <div id="referenzDetails" class="carousel slide" data-ride="carousel" data-interval="false">
+          <div class="carousel-inner">
+            {{ range $item_index, $item := .Site.Data.portfolio.item }}
+            <div class="carousel-item {{if eq $item_index 0}}active{{end}}">
+              <img class="d-block w-100" src="{{ $item.project_url | safeURL }}" alt="portfolio-image">
+              <div class="carousel-caption"> <!-- hide small: d-none d-md-block -->
+                <h5>{{$item.title}}</h5>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+          <a class="carousel-control-prev" href="#referenzDetails" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Zurück</span>
+          </a>
+          <a class="carousel-control-next" href="#referenzDetails" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Weiter</span>
+          </a>
+        </div>
+      </div>
+      <!--
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+      </div>
+      -->
+    </div>
+  </div>
+</div>
+
 <!-- portfolio -->
 <section class="section">
   <div class="container">
     <div class="row mb-5">
       <div class="col-12">
         <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap" data-toggle="buttons">
-          <label class="btn btn-sm btn-secondary active  bg-secondary">
+          <label class="btn btn-sm btn-secondary active bg-secondary">
             <input type="radio" name="shuffle-filter" value="all" checked="checked" />Alle
           </label>
 					{{ $categories := slice }}
@@ -25,16 +68,21 @@
         </div>
       </div>
     </div>
-    <div class="row shuffle-wrapper">
-      {{ range .Site.Data.portfolio.item }}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{{range $index, $element:= .categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
+    <div class="row shuffle-wrapper" data-toggle="modal" data-target="#exampleModal">
+      {{ range $item_index, $item := .Site.Data.portfolio.item }}
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{{range $index, $element:= $item.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]" data-target="#referenzDetails" data-slide-to="{{$item_index}}">
         <div class="position-relative rounded hover-wrapper">
-          <img src="{{.image | absURL }}" title="{{.title}}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <img src="{{$item.image | absURL }}" title="{{$item.title}}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           {{ if and ( ne .project_url "" ) ( ne .project_url "#" ) }}
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="{{ .project_url | safeURL }}">Ansehen</a>
+              <a class="" href="#referenzDetails"><i class="ti-fullscreen icon-small bg-dark text-secondary rounded-circle d-inline-block"></i></a>
             </div>
+            {{ if .title }}
+            <div class="overlay" style="top: 100%;transform: translateY(-100%);max-height: 33%;padding: .5em">
+              <p class="text-primary mb-0">{{substr ($item.title | safeHTML) 0 40}} ...</p>
+            </div>
+            {{ end }}
           </div>
           {{ end }}
         </div>
