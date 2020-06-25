@@ -16,7 +16,7 @@ disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "RSS"]
 
 # css plugins
 [[params.plugins.css]]
-URL = "plugins/bootstrap/bootstrap.min.css"
+URL = "plugins/bootstrap/bootstrap.4.5.0.min.css"
 [[params.plugins.css]]
 URL = "plugins/slick/slick.css"
 [[params.plugins.css]]
@@ -27,7 +27,7 @@ URL = "plugins/themify-icons/themify-icons.css"
 [[params.plugins.js]]
 URL = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
-URL = "plugins/bootstrap/bootstrap.min.js"
+URL = "plugins/bootstrap/bootstrap.4.5.0.min.js"
 [[params.plugins.js]]
 URL = "plugins/slick/slick.min.js"
 [[params.plugins.js]]

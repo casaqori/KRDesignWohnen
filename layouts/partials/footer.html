@@ -62,11 +62,11 @@
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
-<script src="{{ .URL | absURL }}"></script>
+<script src="{{ .URL | absURL }}"></script> {{/*CacheBuster: ?{{ now.Unix }}*/}}
 {{ end }}
 
 {{ "<!-- Main Script -->" | safeHTML }}
-{{ $script := resources.Get "js/script.js" | minify}}
+{{ $script := resources.Get "js/script.js" | resources.Minify | resources.Fingerprint "md5" }}
 <script src="{{ $script.Permalink }}"></script>
 
 {{ with .Site.Params.google_analytics_id }}

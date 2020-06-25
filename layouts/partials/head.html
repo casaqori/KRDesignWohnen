@@ -22,12 +22,12 @@
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .URL | absURL }} ">
+  <link rel="stylesheet" href="{{ .URL | absURL }}"> {{/*CacheBuster: ?{{ now.Unix }}*/}}
   {{ end }}
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  {{ $styles := resources.Get "css/style.css" | minify }}
+  {{ $styles := resources.Get "css/style.css" | resources.Minify | resources.Fingerprint "md5" }}
   <link rel="preload" as="style" href="{{ $styles.Permalink }}">
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
