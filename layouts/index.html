@@ -36,8 +36,8 @@
           {{ with .Site.Data.homepage.about }}
           <p class="font-secondary lead">{{.content1 | markdownify}}</p>
           <i class="ti-line-dashed icon-small d-inline-block"></i>
-          <h4 class="card-title">{{.quote}}</h4>
-          <i class="ti-line-dashed icon-small mb-4 d-inline-block"></i>
+          <h4>{{.quote}}</h4>
+          <i class="ti-line-dashed icon-small mb-2 d-inline-block"></i>
           <p class="font-secondary lead">{{.content2 | markdownify}}</p>
           {{ if .button.enable }}
           {{ with .button }}
@@ -121,7 +121,7 @@
           <div class="card {{if .highlighted }} active-bg-primary {{end}} hover-shadow shadow">
             <div class="card-body text-center px-4 py-5">
               <i class="{{.icon }} icon mb-5 d-inline-block text-secondary"></i>
-              <h4 class="mb-4">{{.title}}</h4>
+              <h4 class="mb-4">{{.title | markdownify}}</h4>
               <p>{{.content | markdownify}}</p>
             </div>
           </div>

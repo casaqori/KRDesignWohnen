@@ -6,7 +6,7 @@ banner:
 about:
   enable : true
   content1 : "Die K & R Design und Wohnen GmbH steht für einen Haus- und Wohnungsbau&shy;dienstleister mit höchstem Anspruch. Unsere Kunden erhalten alle Leistungen um ihr Traumhaus sowie ihre neue Wohnung mit uns zu bauen."
-  quote : "Immobilien nach Maß - Ihre Vorstellung zu Eigenheim, Wohnung, Raumgestaltung und Design aus einer Hand geplant, gebaut und eingerichtet."
+  quote : "Ihre Vorstellung zu Eigenheim, Wohnung, Raumgestaltung und Design aus einer Hand geplant, gebaut und eingerichtet."
   content2 : "WIR schöpfen aus unserer langjährigen Erfahrung und zahlreichen Referenzen um die für Sie passende Architektursprache, ob klassisch oder modern, sowie individuellen Grundriss zu erarbeiten."
   button:
     enable : false
@@ -86,7 +86,7 @@ service:
       content : "Wir bearbeiten unsere Projekte mit Ihnen nach Ihren Wünschen, Bedürfnissen und Vorstellungen. Sie haben bei uns die Möglichkeit Ihre bevorzugten Baustoffen zu wählen und Ihre Ideen zur Architektur bei uns einzubringen."
       highlighted : false
 
-    - title : "Außen- und Innenarchitektur"
+    - title : "Außen- und Innen&shy;architektur"
       icon : "ti-ruler-alt-2"
       content : "Nutzerfreundliche und gut durchdachte Grundrisse skizzieren, anspruchsvolle Architektur planen sowie energetisch moderne Häuser bauen und sanieren – das ist unser Anspruch und unser Versprechen."
       highlighted : true
