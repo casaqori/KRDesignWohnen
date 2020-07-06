@@ -1,5 +1,5 @@
 ---
-title: "Über Uns"
+title: "K & R - Über Uns"
 description: "Das sind Wir: K & R Design und Wohnen GmbH"
 author_image : "images/about/author.jpg"
 author_signature : "images/about/signature.png"

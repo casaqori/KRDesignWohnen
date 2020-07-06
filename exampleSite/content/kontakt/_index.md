@@ -1,5 +1,5 @@
 ---
-title: "Kontakt"
+title: "K & R - Kontakt"
 description: "Angaben zum Internetauftritt der Firma und Kontaktdaten - Neubau, Ausbau, Sanierung, Renovierung, Eigenheim, Wohnung"
 draft: false
 cascade:

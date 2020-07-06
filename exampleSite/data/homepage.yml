@@ -5,8 +5,9 @@ banner:
 # about
 about:
   enable : true
-  content : "Die K & R Design und Wohnen GmbH steht für Haus- und Wohnungsbau&shy;dienstleister mit höchstem Anspruch. Unsere Kunden erhalten alle Leistungen um ihr Traumhaus sowie ihre neue Wohnung mit uns zu bauen. 
-<br/><br/>WIR bieten Ihnen mit unseren langjährigen Erfahrungen und Referenzen die verschiedenen Möglichkeiten der Architektursprache, ob klassisch oder moderne, sowie individuelle Grundrisslösungen.</p>"
+  content1 : "Die K & R Design und Wohnen GmbH steht für einen Haus- und Wohnungsbau&shy;dienstleister mit höchstem Anspruch. Unsere Kunden erhalten alle Leistungen um ihr Traumhaus sowie ihre neue Wohnung mit uns zu bauen."
+  quote : "Immobilien nach Maß - Ihre Vorstellung zu Eigenheim, Wohnung, Raumgestaltung und Design aus einer Hand geplant, gebaut und eingerichtet."
+  content2 : "WIR schöpfen aus unserer langjährigen Erfahrung und zahlreichen Referenzen um die für Sie passende Architektursprache, ob klassisch oder modern, sowie individuellen Grundriss zu erarbeiten."
   button:
     enable : false
     label : "Über Uns"
@@ -78,7 +79,7 @@ partner:
 service:
   enable : true
   title : "Dienst&shy;leistungen"
-  content : "Unser Konzept fundiert auf der Idee mit Ihnen Ihr Traumhaus zu planen und zu bauen. Bei der Auswahl unserer Immobilienprojekte berücksichtigen wir die individuelle Gestaltung nach Ihren persönlichen Wünschen. Ihre Vorstellungen über den Baustil, die Bauart, das Material werden wir realisieren. Sie bekommen damit alle Leistungen aus einer Hand: Planen, Designen und Bauen"
+  content : "Unser Konzept fundiert auf der Idee mit Ihnen Ihr Traumhaus zu planen und zu bauen. Bei der Auswahl unserer Immobilienprojekte berücksichtigen wir die individuelle Gestaltung nach Ihren persönlichen Wünschen. Ihre Vorstellungen über den Baustil, die Bauart, das Material, die Raumaufteilung uvm. werden wir realisieren. Sie bekommen damit alle Leistungen aus einer Hand: Planen, Designen und Bauen"
   item:
     - title : "Planung"
       icon : "ti-agenda"
